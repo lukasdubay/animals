@@ -1,14 +1,9 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content scroll="false">
+  <ion-grid  justify-content-center>
+    <ion-row justify-content-center>
+      <ion-col col-3 class="activity-select-button button-names" (click)='goToNames();'><small>Game Of</small> Names </ion-col>
+      <ion-col col-3 class="activity-select-button button-numbers" (click)='goToNumbers();'><small>Game Of</small> Numbers </ion-col>
+      <ion-col col-3 class="activity-select-button button-sounds" (click)='goToSounds();'><small>Game Of</small> Sounds </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

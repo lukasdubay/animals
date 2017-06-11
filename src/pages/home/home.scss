@@ -1,3 +1,37 @@
 page-home {
 
 }
+.activity-select-button{
+  font-size: 100px;
+  text-align: center;
+  padding: 20px 0;
+  background-size: 235px auto !important;
+  -webkit-flex: 0 0 30%;
+  -ms-flex: 0 0 30%;
+  flex: 0 0 30%;
+  width: 30%;
+  max-width: 30%;
+  text-shadow:  0 0 8px #222d0e;
+  text-transform: uppercase;
+  font-weight: bold;
+
+
+  small{
+    text-transform: none;
+    display: block;
+    font-size: 40%;
+    line-height: 40px;
+  }
+  &.button-names:active,
+  &.button-names:hover{
+    background: url(../assets/images/names-hover.png) no-repeat 50% 100%;
+  }
+  &.button-sounds:active,
+  &.button-sounds:hover{
+    background: url(../assets/images/sounds-hover.png) no-repeat 50% 100%;
+  }
+  &.button-numbers:active,
+  &.button-numbers:hover{
+    background: url(../assets/images/numbers-hover.png) no-repeat 50% 100%;
+  }
+}

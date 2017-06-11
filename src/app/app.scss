@@ -1,6 +1,5 @@
 // http://ionicframework.com/docs/v2/theming/
 
-
 // App Global Sass
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
@@ -14,3 +13,145 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+@font-face {
+    font-family: 'Tulips';
+    src: url('../assets/fonts/talltulips.eot');
+    src: url('../assets/fonts/talltulips.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/talltulips.woff2') format('woff2'),
+         url('../assets/fonts/talltulips.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.grid{
+  height: 100%;
+}
+.grid[justify-content-center]{
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+ion-app{
+  font-family: 'Tulips' !important;
+  color:white !important;
+  font-size: 20px !important;
+  font-weight: bold;
+
+}
+h2,h3,p,a,span{
+    text-shadow:  0 0 8px #222d0e;
+    font-weight: bold;
+}
+.content{
+  color:white;
+  background: none;
+}
+ion-nav{
+  position: static;
+}
+.enable-hover a:hover{
+  opacity: 1;
+}
+.root-bg{
+  position: fixed;
+  top:0;
+  left:0;
+  height: 150%;
+  width:100%;
+  z-index: 1;
+  background: url(../assets/images/root-bg.png) no-repeat 50% 0;
+  background-size: 100% auto;
+  @include transition(all 650ms ease);
+  &.sub-view{
+    @include translate3d(0,-20%,0);
+  }
+}
+.back-button {
+  width: 75px;
+  height: 75px;
+  top:40px;
+  left:20px;
+  position: fixed;
+  z-index: 5;
+  display: block;
+  color:white;
+  text-decoration: none;
+  font-size: 40px;
+  &.menu{
+    height: 50px;
+    padding-left: 5px;
+  }
+  &.menu:hover,
+  &.menu:active{
+    background: url(../assets/images/menu-hover.png) no-repeat 50% 95%;
+    background-size: 100% auto;
+  }
+  &.rotate{
+      @include rotate(90deg);
+      background: url(../assets/images/back-button.png) no-repeat 50% 0;
+      background-size: 100% auto;
+  }
+}
+.game-title{
+  font-size: 70px;
+  margin-bottom: 0px;
+  color:#dcc751;
+  font-weight: bold;
+}
+.game-button{
+  font-weight: bold;
+  width: 230px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 130px;
+  font-size: 110px;
+  color:white;
+
+  &.play:active,
+  &.play:hover{
+    background: url(../assets/images/play-hover.png) no-repeat 50% 100%;
+    background-size: 145px auto;
+  }
+  &.learn:active,
+  &.learn:hover{
+    background: url(../assets/images/learn-hover.png) no-repeat 50% 100%;
+    background-size: 160px auto;
+  }
+}
+.swiper-container-3d .swiper-slide-shadow-left, .swiper-container-3d .swiper-slide-shadow-right, .swiper-container-3d .swiper-slide-shadow-top, .swiper-container-3d .swiper-slide-shadow-bottom{
+  display: none;
+}
+.game-separator{
+  color:#dcc751;
+  font-size: 50px;
+}
+.slide-arrow{
+  position: absolute;
+  top:50%;
+  width: 85px;
+  height: 60px;
+  margin-top: -20px;
+  background-size: 100% auto !important;
+  z-index: 10;
+  cursor:pointer;
+
+  &.prev{
+    left:20px;
+    background: url(../assets/images/prev.png) no-repeat 50% 50%;
+  }
+  &.next{
+    right:20px;
+    background: url(../assets/images/next.png) no-repeat 50% 50%;
+  }
+}
+.slide-title{
+  position: absolute;
+  width: 100%;
+  top:10%;
+  text-transform: uppercase;
+  left:0px;
+  font-size: 90px !important;
+}
+.swiper-slide img{
+  margin-top: 15%;
+}

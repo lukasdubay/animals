@@ -7,27 +7,14 @@ import { NativeAudio } from '@ionic-native/native-audio';
 
 import { AnimalsApp } from './app.component';
 
-import { HomePage } from '../pages/home/home';
-import { NamesPage } from '../pages/names/names';
-import { SoundsPage } from '../pages/sounds/sounds';
-import { NumbersPage } from '../pages/numbers/numbers';
-
-//import { LearnNumbersPage } from '../pages/learn/numbers';
-import { LearnSoundsPage } from '../pages/learn/sounds/sounds';
-import { LearnNamesPage } from '../pages/learn/names/names';
-
+import { MainPage } from '../pages/home/home';
 import { BackgroundProvider } from '../providers/background/background';
 
 @NgModule({
   declarations: [
     AnimalsApp,
-    HomePage,
-    NamesPage,
-    SoundsPage,
-    NumbersPage,
-    LearnNamesPage,
-    LearnSoundsPage,
-    //LearnNumbersPage,
+    MainPage,
+
   ],
   imports: [
     BrowserModule,
@@ -36,13 +23,7 @@ import { BackgroundProvider } from '../providers/background/background';
   bootstrap: [IonicApp],
   entryComponents: [
     AnimalsApp,
-    HomePage,
-    NamesPage,
-    SoundsPage,
-    NumbersPage,
-    LearnNamesPage,
-    LearnSoundsPage,
-    //LearnNumbersPage,
+    MainPage,
   ],
   providers: [
     StatusBar,

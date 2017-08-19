@@ -1,29 +1,48 @@
-import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
-import {NamesPage} from '../names/names';
-import {SoundsPage} from '../sounds/sounds';
-import {NumbersPage} from '../numbers/numbers';
-
-import { BackgroundProvider } from '../../providers/background/background';
+import { Component, ViewChild  } from '@angular/core';
+import { NavController, Slides } from 'ionic-angular';
+import { NativeAudio } from '@ionic-native/native-audio';
+import { Platform } from 'ionic-angular';
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html',
 
 })
-export class HomePage {
+export class MainPage {
+  @ViewChild(Slides) slides: Slides;
+  helpScroll: any = false;
+  scrollNeed: any;
+  soundsLoaded: any = [];
 
-  constructor(public navCtrl: NavController, private background:BackgroundProvider) {
-
+  animals: any = [
+    {id:0,name:'sheep',picture:'sheep.png',showed:false},
+    {id:1,name:'cow',picture:'cow.png',showed:false},
+    {id:2,name:'pig',picture:'pig.png',showed:false},
+    {id:3,name:'hen',picture:'hen.png',showed:false},
+    {id:4,name:'rooster',picture:'rooster.png',showed:false},
+  ];
+  constructor(public navCtrl: NavController, private nativeAudio: NativeAudio, platform: Platform,) {
+    platform.ready().then(() => {
+        this.scrollNeed = setTimeout(() => {
+          this.helpScroll = true;
+        },10000);
+    });
   }
-  goToNames() {
-    this.navCtrl.push(NamesPage, {},{animate:false});
+  slideChanged() {
+    let currentIndex = this.slides.getActiveIndex();
+    clearTimeout(this.scrollNeed);
+    if(currentIndex != 0 && currentIndex < 6){
+      // if audio exists don't preload it again!
+      this.nativeAudio.preloadSimple(this.animals[currentIndex-1].name, 'audio/'+this.animals[currentIndex-1].name+'.mp3');
+    }
   }
-  goToSounds() {
-    this.navCtrl.push(SoundsPage, {},{animate:false});
+  playSound(id) {
+    if(this.animals[id].showed == false){
+      this.animals[id].showed = true;
+      this.nativeAudio.play('reveal');
+    }else{
+      //set animation only on play
+      this.nativeAudio.play(this.animals[id].name);
+    }
   }
-  goToNumbers() {
-    this.navCtrl.push(NumbersPage, {},{animate:false});
-  }
-  //popToRoot(opts)
 }

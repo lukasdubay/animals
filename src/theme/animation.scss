@@ -1,0 +1,169 @@
+@-webkit-keyframes-keyframes show {
+
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes show {
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@-webkit-keyframes-keyframes reveal {
+
+  0%{
+    background-position: 50% 0;
+  }
+  100%{
+    background-position: 50% -10128px;
+  }
+}
+@keyframes reveal {
+  0%{
+    background-position: 50% 0;
+  }
+  100%{
+    background-position: 50% -10128px;
+  }
+}
+@-webkit-keyframes congratulation_m {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: 0 -3888px;
+  }
+}
+@keyframes congratulation_m {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: 0 -3888px;
+  }
+}
+@-webkit-keyframes congratulation {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: 0 -7776px;
+  }
+}
+@keyframes congratulation {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: 0 -7776px;
+  }
+}
+@-webkit-keyframes onboard_1_m {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: 0 -4370px;
+  }
+}
+@keyframes onboard_1_m {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: 0 -4370px;
+  }
+}
+@-webkit-keyframes onboard_1 {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: 0 -8740px;
+  }
+}
+@keyframes onboard_1 {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: 0 -8740px;
+  }
+}
+@-webkit-keyframes onboard_2 {
+  0%{
+    -webkit-transform:rotate(5deg);
+  }
+  100%{
+    -webkit-transform:rotate(-5deg);
+  }
+}
+@keyframes onboard_2 {
+  0%{
+    transform:rotate(8deg);
+  }
+  100%{
+    transform:rotate(-8deg);
+  }
+}
+@-webkit-keyframes onboard_3_m {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: 0 -4950px;
+  }
+}
+@keyframes onboard_3_m {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: 0 -4950px;
+  }
+}
+@-webkit-keyframes onboard_3 {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: 0 -9900px;
+  }
+}
+@keyframes onboard_3 {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: 0 -9900px;
+  }
+}
+@-webkit-keyframes cloud {
+
+  0%{
+    -webkit-transform:translate3d(0,0,0);
+  }
+  50%{
+    -webkit-transform:translate3d(100%,0,0);
+  }
+  100%{
+    -webkit-transform:translate3d(0,0,0);
+  }
+}
+@keyframes cloud {
+  0%{
+    transform:translate3d(0,0,0);
+  }
+  50%{
+    transform:translate3d(100%,0,0);
+  }
+  100%{
+    transform:translate3d(0,0,0);
+  }
+}

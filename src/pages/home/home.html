@@ -1,79 +1,12 @@
-<ion-content scroll="false">
-  <ion-slides parallax keyboard speed="800" (ionSlideDidChange)="slideChanged()" [ngClass]="{'loaded': loaded}">
-    <div class="back-bg" data-swiper-parallax="-10%"></div>
-    <div class="middle-bg" data-swiper-parallax="16%"></div>
-    <div class="front-bg" data-swiper-parallax="5%"></div>
-    <ion-slide>
-      <h1 class="mobile">
-        <small>
-            <span>L</span><span style="
-            transform: rotate(-4deg) translate3d(0,3px,0);">E</span><span>T</span><span>’</span><span style="
-            transform: translate3d(-5px, 0, 0);">S</span> <span style="
-            transform: rotate(0deg)">L</span><span style="
-            transform: rotate(-4deg) translate3d(0,3px,0);">E</span><span style="
-            transform: rotate(3deg) translate3d(0,-5px,0);
-            font-size: 49px">A</span><span style="
-            transform: rotate(3deg)">R</span><span style="
-            transform: rotate(-9deg)">N</span>
-        </small>
-        <span style="
-        transform: rotate(-5deg) translate3d(8px,0,0)">f</span><span style="
-        transform: rotate(-3deg);
-        font-size: 105px">A</span><span style="
-        font-size: 110px;
-        transform: rotate(-3deg)">R</span><span style="
-        transform: rotate(-4deg)">M</span><span class="space"></span><span style="
-        font-size: 110px;
-        transform: rotate(-3deg)">A</span><span style="
-        font-size: 90px;
-        transform: translate3d(0,-20px,0)  rotate(2deg)">N</span><span style="
-        font-size: 85px;
-        transform: translate3d(0,-9px,0)">I</span><span style=" font-size: 80px; position: relative; display: inline-block; transform: rotate(-4deg);">M</span><span>A</span><span style="
-        font-size: 70px;
-        transform: rotate(2deg) translate3d(0,-20px,0)">L</span><span style="
-        transform: rotate(5deg) translate3d(0,10px,0)">S</span>
-      </h1>
-      <h1 class="tablet">
-        <small>
-            <span>L</span><span style="
-            transform: rotate(-4deg) translate3d(0,3px,0);">E</span><span>T</span><span>’</span><span style="
-            transform: translate3d(-5px, 0, 0);">S</span> <span style="
-            transform: rotate(0deg)">L</span><span style="
-            transform: rotate(-4deg) translate3d(0,3px,0);">E</span><span style="
-            transform: rotate(3deg) translate3d(0,-5px,0);
-            font-size: 78px">A</span><span style="
-            transform: rotate(3deg)">R</span><span style="
-            transform: rotate(-9deg)">N</span>
-        </small>
-        <span style="
-        transform: rotate(-5deg) translate3d(8px,0,0)">f</span><span style="
-        transform: rotate(-3deg);
-        font-size: 210px">A</span><span style="
-        font-size: 220px;
-        transform: rotate(-3deg)">R</span><span style="
-        transform: rotate(-4deg)">M</span><span class="space"></span><span style="
-        font-size: 220px;
-        transform: rotate(-3deg)">A</span><span style="
-        font-size: 180px;
-        transform: translate3d(0,-20px,0)  rotate(2deg)">N</span><span style="
-        font-size: 175px;
-        transform: translate3d(0,-9px,0)">I</span><span style=" font-size: 170px; position: relative; display: inline-block; transform: rotate(-4deg);">M</span><span>A</span><span style="
-        font-size: 160px;
-        transform: rotate(2deg) translate3d(0,-20px,0)">L</span><span style="
-        transform: rotate(5deg) translate3d(0,10px,0)">S</span>
-      </h1>
-      <div class="hand" *ngIf="helpScroll" ></div>
-    </ion-slide>
-
-    <ion-slide *ngFor="let animal of animals" (click)='playSound(animal.id);' [ngClass]="{'showed': animal.showed}">
-      <div class="reveal"></div>
-      <h2 class="slide-title">{{animal.name}}</h2>
-      <div class="slide-img hidden" [ngStyle]="{'background-image': 'url(assets/images/' + animal.picture + ')'}" ></div>
-      <div class="slide-img showed" [ngStyle]="{'background-image': 'url(assets/images/' + animal.picture + ')'}" ></div>
-    </ion-slide>
-
-  </ion-slides>
-</ion-content>
+<div class="cloud-bg">
+  <div class="cloud big"></div>
+  <div class="cloud long"></div>
+</div>
+<div class="home-content">
+  <img class="home-title" src="assets/images/text/headline.svg" alt="">
+  <a class="home-play" (click)="play();"></a>
+  <a class="home-credits" (click)="credits();"></a>
+</div>
 <div class="cloud big-left"></div>
 <div class="cloud big-right"></div>
 <div class="cloud small-left"></div>

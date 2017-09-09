@@ -2,16 +2,35 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class BackgroundProvider {
-  public background:any;
+  public loadedApp:any;
+  public transition:any;
+  public page:any;
 
   constructor() {
-    this.background = "";
+    this.loadedApp = "";
+    this.transition= "";
   }
-  setMyGlobalVar(value) {
-    this.background = value;
+  setLoadedApp(value) {
+    this.loadedApp = value;
   }
 
-  getMyGlobalVar() {
-    return this.background;
+  getLoadedApp() {
+    return this.loadedApp;
+  }
+
+  setTranstition(value) {
+    this.transition = value;
+  }
+
+  getTransition() {
+    return this.transition;
+  }
+
+  setPage(value) {
+    this.page = value;
+  }
+
+  getPage() {
+    return this.page;
   }
 }

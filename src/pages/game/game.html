@@ -1,0 +1,58 @@
+<a class="game-menu-trigger" [ngClass]="{'active': menuActive}" (click)="toggleMenu()"></a>
+<div class="game-menu modal" [ngClass]="{'active': menuActive}">
+  <a class="game-menu-item play-again">
+    <img src="assets/images/text/play-again.svg">
+  </a>
+  <a class="game-menu-item go-home">
+    <img src="assets/images/text/go-home.svg">
+  </a>
+</div>
+<div class="game-content show-content" [ngClass]="{'show-content': !showTutorial}">
+  <ion-slides keyboard="true" pager="false" parallax="true" speed="800">
+      <img class="sky" data-swiper-parallax="10%" src="assets/images//ambient/sky.jpg" >
+      <div class="cloud-bg" data-swiper-parallax="5%">
+        <div class="cloud big"></div>
+        <div class="cloud long"></div>
+        <div class="cloud small"></div>
+        <div class="cloud big-2"></div>
+        <div class="cloud long-2"></div>
+        <div class="cloud small-2"></div>
+        <div class="cloud big-3"></div>
+        <div class="cloud long-3"></div>
+        <div class="cloud small-3"></div>
+        <div class="cloud long-4"></div>
+      </div>
+      <img class="ground-back" data-swiper-parallax="6%" src="assets/images/ambient/middle.png">
+      <img class="front-bg swiper-slide-prev" data-swiper-parallax="-3%" src="assets/images/ambient/front.png" >
+
+      <ion-slide class="swiper-slide" *ngFor="let animal of animals" [ngClass]="{'active': animal.animated,'showed': animal.showed}" >
+        <div class="reveal"></div>
+        <img class="slide-title" src="assets/images/text/{{animal.name}}.svg" />
+        <div class="slide-img hidden" [ngStyle]="{'background': 'url(assets/images/animals/shadow-' + animal.picture + ')'}" (click)="playSound(animal.id)"></div>
+        <div class="slide-img showed" [ngStyle]="{'background': 'url(assets/images/animals/' + animal.picture + ')'}" (click)="playSound(animal.id)"></div>
+        <div class="slide-img active" [ngStyle]="{'background': 'url(assets/images/animals/active-' + animal.picture + ')'}" (click)="playSound(animal.id)"></div>
+      </ion-slide>
+
+  </ion-slides>
+</div>
+<div class="game-finish modal" [ngClass]="{'active': showCongratulation}" *ngIf="!showedCongratulation">
+  <div class="game-finish-image"></div>
+  <img class="game-finish-title" src="assets/images/text/congratulation-title.svg">
+</div>
+<div class="game-tutorial modal" [ngClass]="{'active': showTutorial}">
+  <ion-slides pager="true" parallax="false" speed="800" *ngIf="!showedTutorial">
+    <ion-slide class="show-slide swiper-slide">
+        <div class="tutorial-step-animation step-1"></div>
+        <img alt="" src="assets/images/text/onboarding-1.svg">
+    </ion-slide>
+    <ion-slide class="show-slide swiper-slide">
+        <div class="tutorial-step-animation step-2"></div>
+        <img alt="" src="assets/images/text/onboarding-2.svg">
+    </ion-slide>
+    <ion-slide class="show-slide swiper-slide">
+        <div class="tutorial-step-animation step-3"></div>
+        <img alt="" src="assets/images/text/onboarding-3.svg">
+    </ion-slide>
+    <a class="tutorial-finish">LET'S GO</a>
+  </ion-slides>
+</div>

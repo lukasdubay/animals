@@ -1,7 +1,9 @@
-import { Component, ViewChild  } from '@angular/core';
-import { NavController, Slides } from 'ionic-angular';
+import { Component  } from '@angular/core';
+import { NavController } from 'ionic-angular';
+import { BackgroundProvider } from '../../providers/background/background';
 import { NativeAudio } from '@ionic-native/native-audio';
-import { Platform } from 'ionic-angular';
+
+import { GamePage } from '../game/game';
 
 @Component({
   selector: 'page-home',
@@ -9,40 +11,36 @@ import { Platform } from 'ionic-angular';
 
 })
 export class MainPage {
-  @ViewChild(Slides) slides: Slides;
-  helpScroll: any = false;
-  scrollNeed: any;
-  soundsLoaded: any = [];
+  gameloaded: boolean = false;
 
-  animals: any = [
-    {id:0,name:'sheep',picture:'sheep.png',showed:false},
-    {id:1,name:'cow',picture:'cow.png',showed:false},
-    {id:2,name:'pig',picture:'pig.png',showed:false},
-    {id:3,name:'hen',picture:'hen.png',showed:false},
-    {id:4,name:'rooster',picture:'rooster.png',showed:false},
-  ];
-  constructor(public navCtrl: NavController, private nativeAudio: NativeAudio, platform: Platform,) {
-    platform.ready().then(() => {
-        this.scrollNeed = setTimeout(() => {
-          this.helpScroll = true;
-        },10000);
-    });
+  constructor(public navCtrl: NavController, private transition: BackgroundProvider, private page: BackgroundProvider, private nativeAudio: NativeAudio) {
+
+
   }
-  slideChanged() {
-    let currentIndex = this.slides.getActiveIndex();
-    clearTimeout(this.scrollNeed);
-    if(currentIndex != 0 && currentIndex < 6){
-      // if audio exists don't preload it again!
-      this.nativeAudio.preloadSimple(this.animals[currentIndex-1].name, 'audio/'+this.animals[currentIndex-1].name+'.mp3');
-    }
+  ionViewDidEnter(){
+    this.page.setPage('home-page');
+    this.transition.setTranstition('');
+    this.nativeAudio.loop('introM');
   }
-  playSound(id) {
-    if(this.animals[id].showed == false){
-      this.animals[id].showed = true;
-      this.nativeAudio.play('reveal');
-    }else{
-      //set animation only on play
-      this.nativeAudio.play(this.animals[id].name);
-    }
+  ionViewWillLeave(){
+    this.nativeAudio.stop('introM');
   }
+  play(){
+    this.transition.setTranstition('transition-on');
+    setTimeout(() => {
+      if(this.gameloaded){
+        this.nativeAudio.stop('introM');
+        this.nativeAudio.loop('ambientM');
+        this.page.setPage('game-page');
+        this.transition.setTranstition('');
+      }else{
+        this.gameloaded = true;
+        this.navCtrl.push(GamePage,{},{animate:false});
+      }
+    },1000);
+  }
+  credits(){
+   //this.navCtrl.push(CreditsPage,{},{animate:false});
+  }
+
 }

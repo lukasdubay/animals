@@ -3,6 +3,7 @@ import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { NativeAudio } from '@ionic-native/native-audio';
+import { Storage } from '@ionic/storage';
 
 import { MainPage } from '../pages/home/home';
 import { BackgroundProvider } from '../providers/background/background';
@@ -14,27 +15,28 @@ import { BackgroundProvider } from '../providers/background/background';
 export class AnimalsApp {
   rootPage:any = MainPage;
 
-  constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, private background:BackgroundProvider, private nativeAudio: NativeAudio) {
-    statusBar.hide();
+  constructor(platform: Platform, storage: Storage, statusBar: StatusBar, splashScreen: SplashScreen, private background:BackgroundProvider, private nativeAudio: NativeAudio) {
     platform.ready().then(() => {
-      if(platform.is('cordova')){
-        statusBar.overlaysWebView(true);
-        splashScreen.hide();
-        nativeAudio.preloadSimple('reveal','audio/reveal.mp3');
-        nativeAudio.preloadComplex('introM', 'audio/intro.mp3', 1, 1, 0).then(() => {
-         nativeAudio.play('introM');
-        });
-        nativeAudio.preloadComplex('ambientM', 'audio/ambient.mp3', 1, 1, 0).then(() => {
-          setTimeout(() => {
-            nativeAudio.setVolumeForComplexAsset('ambientM', 0.1);
-            nativeAudio.loop('ambientM');
-          },20000);
-        });
-      }
 
-      setTimeout(function() {
-        background.setMyGlobalVar('loaded');
-      },500);
+      background.setLoadedApp('loaded');
+      statusBar.overlaysWebView(true);
+      statusBar.styleLightContent();
+      splashScreen.hide();
+
+      storage.length().then((val) => {
+        console.log('storage: ',val);
+         if(val == 0){
+            storage.set('tutorial', false);
+            storage.set('congratulation', false);
+         }
+      });
+      if(platform.is('cordova')){
+
+        this.nativeAudio.preloadComplex('introM', 'audio/intro.mp3', 0.1, 1, 2).then(() => {
+          this.nativeAudio.loop('introM');
+        });
+        this.nativeAudio.preloadComplex('ambientM', 'audio/ambient.mp3', 0.1, 1, 0);
+      }
     });
   }
 }

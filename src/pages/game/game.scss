@@ -131,10 +131,10 @@ page-game{
 .front-bg{
   position: absolute;
   top:0;
-  left:-75%;
+  left:-70%;
   height: 100%;
   z-index: 3;
-  max-width: 1000%;
+  max-width: 10000%;
 }
 .cloud-bg{
   position: absolute;
@@ -145,19 +145,18 @@ page-game{
   z-index: 1;
   max-width: 800%;
 }
-.ground-back,
 .sky{
   position: absolute;
   top:0;
-  left:-40%;
+  left:0%;
   z-index: 1;
   width:auto;
-  max-width: 1000%;
+  width: 100%;
   height: 100%;
+  background: url(../assets/images/ambient/sky.jpg) no-repeat 50% 0%;
+  background-size: cover;
 }
-.ground-back{
-  z-index: 2;
-}
+
 .swiper-pagination-bullet{
   width: 12px;
   height: 12px;
@@ -236,10 +235,12 @@ page-game{
     @include transition(opacity 420ms ease);
     opacity: 0;
     z-index: 2;
+    display: none;
   }
   &.active{
     opacity: 0;
     z-index: 3;
+    display: none;
   }
 }
 .reveal{
@@ -257,11 +258,23 @@ page-game{
   pointer-events: none;
   opacity: 0;
 }
+.swiper-slide.loaded{
+    .showed{
+      display: block;
+    }
+}
+.swiper-slide-active{
+    .active,
+    .showed{
+      display: block !important;
+    }
+}
 .swiper-slide.play{
   .showed{
-    display: none;
+    display: none !important;
   }
   .active{
+    display: block !important;
     opacity: 1;
   }
 }
@@ -454,15 +467,16 @@ page-game{
       @include animation(congratulation 1s steps(27) forwards );
       height:288px;
   }
-  .front-bg{
-    left: -150%;
-  }
+
   .swiper-slide .slide-img.hidden{
     &::after{
       top:62%;
       width: 40px;
       height: 105px;
     }
+  }
+  .front-bg{
+    left: -120%;
   }
   .reveal{
     top:2%;

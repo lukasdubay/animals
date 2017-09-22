@@ -27,7 +27,7 @@
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="0" />
     <feature name="StatusBar">
-        <param name="ios-package" onload="true" value="CDVStatusBar" />
+        <param name="ios-package" onload="false" value="CDVStatusBar" />
     </feature>
     <platform name="ios">
         <icon height="57" src="resources/ios/icon/icon.png" width="57" />

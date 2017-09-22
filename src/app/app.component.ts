@@ -20,7 +20,7 @@ export class AnimalsApp {
 
       background.setLoadedApp('loaded');
       statusBar.overlaysWebView(true);
-      statusBar.styleLightContent();
+      statusBar.hide();
       splashScreen.hide();
 
       storage.length().then((val) => {

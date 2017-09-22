@@ -19,7 +19,7 @@
     background: url(../assets/images/transition/cloud-top.png) no-repeat 0 0;
     background-size: contain;
     @include translate3d(-100%,-50%,0);
-    @include transition(all 900ms ease 100ms);
+    @include transition(all 900ms ease);
   }
   .could-top-left{
     top:0;
@@ -38,7 +38,7 @@
     background: url(../assets/images/transition/cloud-top-right.png) no-repeat 0 0;
     background-size: contain;
     @include translate3d(100%,-8%,0);
-    @include transition(all 800ms ease 150ms);
+    @include transition(all 800ms ease);
 
   }
   .cloud-middle{
@@ -58,7 +58,7 @@
     background: url(../assets/images/transition/cloud-bottom-left.png) no-repeat 0 0;
     background-size: contain;
     @include translate3d(-100%,20%,0);
-    @include transition(all 700ms ease 150ms);
+    @include transition(all 700ms ease);
 
   }
   .could-bottom-right{

@@ -11,7 +11,7 @@ import { Storage } from '@ionic/storage';
 })
 export class GamePage {
   @ViewChild(Slides) slides: Slides;
-
+  mobile: boolean = true;
   showTutorial: boolean = true;
   showCongratulation: boolean = false;
   menuActive: boolean = false;
@@ -27,21 +27,22 @@ export class GamePage {
     {step: 3, showed: false},
   ];
   animals: any = [
-    {id: 0, name: 'sheep', picture: 'sheep.png', showed: false, animated: false},
-    {id: 1, name: 'cow', picture: 'cow.png', showed: false, animated: false},
-    {id: 2, name: 'pig', picture: 'pig.png', showed: false, animated: false},
-    {id: 3, name: 'hen', picture: 'hen.png', showed: false, animated: false},
-    {id: 4, name: 'rooster', picture: 'rooster.png', showed: false, animated: false},
-    {id: 5, name: 'turkey', picture: 'turkey.png', showed: false, animated: false},
-    {id: 6, name: 'goose', picture: 'goose.png', showed: false, animated: false},
-    {id: 7, name: 'duck', picture: 'duck.png', showed: false, animated: false},
-    {id: 8, name: 'bull', picture: 'bull.png', showed: false, animated: false},
-    {id: 9, name: 'horse', picture: 'horse.png', showed: false, animated: false},
-    {id: 10, name: 'donkey', picture: 'donkey.png', showed: false, animated: false},
-    {id: 11, name: 'goat', picture: 'goat.png', showed: false, animated: false},
-    {id: 12, name: 'rabbit', picture: 'rabbit.png', showed: false, animated: false},
-    {id: 13, name: 'cat', picture: 'cat.png', showed: false, animated: false},
-    {id: 14, name: 'dog', picture: 'dog.png', showed: false, animated: false},
+    {id: 0, name: 'sheep', picture: 'sheep.png', showed: false, animated: false, loaded:true},
+    {id: 1, name: 'cow', picture: 'cow.png', showed: false, animated: false, loaded:false},
+    {id: 2, name: 'pig', picture: 'pig.png', showed: false, animated: false, loaded:false},
+    {id: 3, name: 'hen', picture: 'hen.png', showed: false, animated: false, loaded:false},
+    {id: 4, name: 'rooster', picture: 'rooster.png', showed: false, animated: false, loaded:false},
+    {id: 5, name: 'goose', picture: 'goose.png', showed: false, animated: false, loaded:false},
+    {id: 6, name: 'duck', picture: 'duck.png', showed: false, animated: false, loaded:false},
+    {id: 7, name: 'turkey', picture: 'turkey.png', showed: false, animated: false, loaded:false},
+    {id: 8, name: 'cat', picture: 'cat.png', showed: false, animated: false, loaded:false},
+    {id: 9, name: 'dog', picture: 'dog.png', showed: false, animated: false, loaded:false},
+    {id: 10, name: 'rabbit', picture: 'rabbit.png', showed: false, animated: false, loaded:false},
+    {id: 11, name: 'donkey', picture: 'donkey.png', showed: false, animated: false, loaded:false},
+    {id: 12, name: 'horse', picture: 'horse.png', showed: false, animated: false, loaded:false},
+    {id: 13, name: 'bull', picture: 'bull.png', showed: false, animated: false, loaded:false},
+    {id: 14, name: 'goat', picture: 'goat.png', showed: false, animated: false, loaded:false},
+
   ];
   constructor(public navCtrl: NavController, private storage: Storage, private nativeAudio: NativeAudio, private transition: BackgroundProvider, private page: BackgroundProvider) {
     this.nativeAudio.preloadComplex('reveal','audio/reveal.mp3', 1, 1, 0);
@@ -57,12 +58,14 @@ export class GamePage {
     this.storage.get('congratulation').then((val) => {
       this.showedCongratulation =  val;
     });
+    if(window.innerWidth >= 768){
+      this.mobile = false;
+    }
   }
   ionViewDidEnter(){
     this.page.setPage('game-page');
     this.transition.setTranstition('');
     this.nativeAudio.loop('ambientM');
-    this.slides.slideTo(0,500);
   }
   tutorialSlideChanged() {
     let currentIndex = this.slides.getActiveIndex();
@@ -76,7 +79,10 @@ export class GamePage {
     this.storage.set('tutorial', true);
   }
   slideChanged() {
-    //let currentIndex = this.slides.getActiveIndex();
+    let currentIndex2 = this.slides.getActiveIndex();
+    if(this.animals[currentIndex2].loaded == false){
+      this.animals[currentIndex2].loaded = true;
+    }
   }
   toggleMenu(){
     this.menuActive = !this.menuActive;

@@ -55,7 +55,6 @@ game.module(
 
         prevButton.click = prevButton.tap = function (){
           fader.fadeOut(function() {
-            game.audio.stopMusic();
             game.system.setScene(prevAnimal);
           });
         };

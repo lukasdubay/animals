@@ -13,10 +13,7 @@ game.module(
 
     game.addAsset('spine_anim.json');
     game.addAsset('spine_anim2.json');
-
-
     //ui
-
     game.addAsset('ui/home.png');
     game.addAsset('ui/menu.png');
     game.addAsset('ui/menu-close.png');

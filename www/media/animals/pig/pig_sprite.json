@@ -1,0 +1,126 @@
+{"frames":
+	{
+
+	  "pig_hlava.png":{
+			"frame": {"x":1,"y":1,"w":384,"h":309},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":384,"h":309},
+			"sourceSize": {"w":384,"h":309}
+		},
+	  "pig_kvet-1.png":{
+			"frame": {"x":119,"y":794,"w":88,"h":78},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":88,"h":78},
+			"sourceSize": {"w":88,"h":78}
+		},
+	  "pig_kvet-2.png":{
+			"frame": {"x":300,"y":834,"w":75,"h":70},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":75,"h":70},
+			"sourceSize": {"w":75,"h":70}
+		},
+	  "pig_noha.png":{
+			"frame": {"x":209,"y":794,"w":89,"h":74},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":89,"h":74},
+			"sourceSize": {"w":89,"h":74}
+		},
+	  "pig_nose.png":{
+			"frame": {"x":1,"y":790,"w":116,"h":89},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":116,"h":89},
+			"sourceSize": {"w":116,"h":89}
+		},
+	  "pig_nosne-dierky.png":{
+			"frame": {"x":119,"y":874,"w":74,"h":20},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":74,"h":20},
+			"sourceSize": {"w":74,"h":20}
+		},
+	  "pig_obocie.png":{
+			"frame": {"x":153,"y":761,"w":138,"h":17},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":138,"h":17},
+			"sourceSize": {"w":138,"h":17}
+		},
+	  "pig_oci-1.png":{
+			"frame": {"x":153,"y":780,"w":126,"h":12},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":126,"h":12},
+			"sourceSize": {"w":126,"h":12}
+		},
+	  "pig_oci-2.png":{
+			"frame": {"x":1,"y":881,"w":111,"h":13},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":111,"h":13},
+			"sourceSize": {"w":111,"h":13}
+		},
+	  "pig_ruka-l.png":{
+			"frame": {"x":153,"y":556,"w":158,"h":203},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":158,"h":203},
+			"sourceSize": {"w":158,"h":203}
+		},
+	  "pig_ruka-p.png":{
+			"frame": {"x":300,"y":763,"w":87,"h":69},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":87,"h":69},
+			"sourceSize": {"w":87,"h":69}
+		},
+	  "pig_telo.png":{
+			"frame": {"x":1,"y":312,"w":420,"h":242},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {"x":0,"y":0,"w":420,"h":242},
+			"sourceSize": {"w":501,"h":242}
+		},
+	  "pig_ucho-l.png":{
+			"frame": {"x":313,"y":556,"w":118,"h":205},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":118,"h":205},
+			"sourceSize": {"w":118,"h":205}
+		},
+	  "pig_ucho-p.png":{
+			"frame": {"x":1,"y":556,"w":150,"h":232},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":150,"h":232},
+			"sourceSize": {"w":150,"h":232}
+		},
+	  "pig_usta-1.png":{
+			"frame": {"x":209,"y":870,"w":61,"h":38},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":61,"h":38},
+			"sourceSize": {"w":61,"h":38}
+		},
+	  "pig_usta-2.png":{
+			"frame": {"x":387,"y":1,"w":39,"h":29},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":39,"h":29},
+			"sourceSize": {"w":39,"h":29}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "pig_sprite.png",
+		"format": "RGBA8888",
+		"size": {"w":432,"h":909},
+		"scale": "1",
+		"smartupdate": "$TexturePacker:SmartUpdate:5a527368852ad7cd8dd4eed1e9717a6b:8acbb2cc77eb745e10639cbc0898236d:e46f2dcb6dc426a48d1e69ef76fef2fb$"
+	}
+}

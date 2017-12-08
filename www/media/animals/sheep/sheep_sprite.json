@@ -1,0 +1,89 @@
+{"frames": {
+
+"sheep-hlava-1.png":{
+	"frame": {"x":1,"y":661,"w":498,"h":529},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":498,"h":529},
+	"sourceSize": {"w":498,"h":529}
+},
+"sheep-noha-l.png":{
+	"frame": {"x":558,"y":219,"w":64,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":93},
+	"sourceSize": {"w":64,"h":93}
+},
+"sheep-noha-p.png":{
+	"frame": {"x":594,"y":1,"w":61,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":93},
+	"sourceSize": {"w":61,"h":93}
+},
+"sheep-oci-2.png":{
+	"frame": {"x":501,"y":791,"w":109,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":109,"h":29},
+	"sourceSize": {"w":109,"h":29}
+},
+"sheep-oci.png":{
+	"frame": {"x":501,"y":767,"w":128,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":22},
+	"sourceSize": {"w":128,"h":22}
+},
+"sheep-ruka-1.png":{
+	"frame": {"x":501,"y":822,"w":105,"h":285},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":20,"w":105,"h":285},
+	"sourceSize": {"w":157,"h":305}
+},
+"sheep-telo-3.png":{
+	"frame": {"x":1,"y":152,"w":555,"h":507},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":555,"h":507},
+	"sourceSize": {"w":555,"h":507}
+},
+"sheep-tien-bakula.png":{
+	"frame": {"x":501,"y":661,"w":156,"h":104},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":104},
+	"sourceSize": {"w":156,"h":104}
+},
+"sheep-tien-telo.png":{
+	"frame": {"x":1,"y":1,"w":591,"h":149},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":591,"h":149},
+	"sourceSize": {"w":591,"h":149}
+},
+"sheep-usta-2.png":{
+	"frame": {"x":558,"y":152,"w":66,"h":65},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":65},
+	"sourceSize": {"w":66,"h":97}
+},
+"sheep-usta-2_1.png":{
+	"frame": {"x":558,"y":314,"w":64,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":36},
+	"sourceSize": {"w":64,"h":36}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "sheep_sprite.png",
+	"format": "RGBA8888",
+	"size": {"w":658,"h":1191},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0367a516d30bec3c7a508e9c4885b21d:ab0c1ab6e2985c1666f35f59cd14f3cb:d513aace39872bb8a185a8dfa0326aad$"
+}
+}

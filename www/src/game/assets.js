@@ -7,18 +7,32 @@ game.module(
     game.addAudio('sound/ambient.mp3', 'ambient');
     //bg
     game.addAsset('bg/bg-intro.jpg');
+    game.addAsset('bg/bg-end.jpg');
+    game.addAsset('bg/bg-end-loaded.jpg');
 
+    game.addAsset('bg/logo.png');
     game.addAsset('bg/cloud-left.png');
     game.addAsset('bg/cloud-right.png');
 
-    game.addAsset('spine_anim.json');
-    game.addAsset('spine_anim2.json');
     //ui
     game.addAsset('ui/home.png');
     game.addAsset('ui/menu.png');
     game.addAsset('ui/menu-close.png');
+    game.addAsset('ui/facebook.png');
+    game.addAsset('ui/twitter.png');
+    game.addAsset('ui/replay.png');
+    game.addAsset('ui/ribbon.png');
 
     //animals
+    game.addAsset('animals/sheep/sheep_ske.json');
+    game.addAsset('animals/sheep/sheep_sprite.json');
+    game.addAsset('animals/cow/cow_ske.json');
+    game.addAsset('animals/cow/cow_sprite.json');
+    game.addAsset('animals/pig/pig_ske.json');
+    game.addAsset('animals/pig/pig_sprite.json');
+    game.addAsset('animals/hen/hen_ske.json');
+    game.addAsset('animals/hen/hen_sprite.json');
+
     game.addAsset('bg/bg-bull.jpg');
     game.addAsset('text/bull.png');
     game.addAudio('sound/bull.mp3','bull');
@@ -34,8 +48,6 @@ game.module(
     game.addAsset('bg/bg-cow.jpg');
     game.addAsset('text/cow.png');
     game.addAudio('sound/cow.mp3','cow');
-    game.addAsset('animals/cow/cow-1.png');
-    game.addAsset('animals/cow/cow-2.png');
 
     game.addAsset('bg/bg-dog.jpg');
     game.addAsset('text/dog.png');
@@ -70,8 +82,6 @@ game.module(
     game.addAsset('bg/bg-hen.jpg');
     game.addAsset('text/hen.png');
     game.addAudio('sound/hen.mp3','hen');
-    game.addAsset('animals/hen/hen-1.png');
-    game.addAsset('animals/hen/hen-2.png');
 
     game.addAsset('bg/bg-horse.jpg');
     game.addAsset('text/horse.png');
@@ -82,8 +92,6 @@ game.module(
     game.addAsset('bg/bg-pig.jpg');
     game.addAsset('text/pig.png');
     game.addAudio('sound/pig.mp3','pig');
-    game.addAsset('animals/pig/pig-1.png');
-    game.addAsset('animals/pig/pig-2.png');
 
     game.addAsset('bg/bg-rabbit.jpg');
     game.addAsset('text/rabbit.png');
@@ -100,8 +108,6 @@ game.module(
     game.addAsset('bg/bg-sheep.jpg');
     game.addAsset('text/sheep.png');
     game.addAudio('sound/sheep.mp3','sheep');
-    game.addAsset('animals/sheep/sheep-1.png');
-    game.addAsset('animals/sheep/sheep-2.png');
 
     game.addAsset('bg/bg-turkey.jpg');
     game.addAsset('text/turkey.png');

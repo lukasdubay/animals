@@ -1,0 +1,124 @@
+{"frames": {
+
+"cow_body.png":{
+	"frame": {"x":1,"y":314,"w":283,"h":256},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":9,"w":283,"h":256},
+	"sourceSize": {"w":288,"h":265}
+},
+"cow_bottle.png":{
+	"frame": {"x":399,"y":366,"w":110,"h":208},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":110,"h":208},
+	"sourceSize": {"w":110,"h":208}
+},
+"cow_chvost-1.png":{
+	"frame": {"x":337,"y":486,"w":42,"h":17},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":42,"h":17},
+	"sourceSize": {"w":42,"h":17}
+},
+"cow_chvost-2.png":{
+	"frame": {"x":337,"y":505,"w":30,"h":14},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":14},
+	"sourceSize": {"w":30,"h":14}
+},
+"cow_chvost-3.png":{
+	"frame": {"x":286,"y":486,"w":49,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":71},
+	"sourceSize": {"w":49,"h":71}
+},
+"cow_head.png":{
+	"frame": {"x":1,"y":1,"w":318,"h":264},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":318,"h":264},
+	"sourceSize": {"w":318,"h":264}
+},
+"cow_nos.png":{
+	"frame": {"x":402,"y":340,"w":107,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":24},
+	"sourceSize": {"w":107,"h":24}
+},
+"cow_oci.png":{
+	"frame": {"x":286,"y":340,"w":114,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":10},
+	"sourceSize": {"w":114,"h":10}
+},
+"cow_ruka-l.png":{
+	"frame": {"x":321,"y":1,"w":176,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":129},
+	"sourceSize": {"w":176,"h":129}
+},
+"cow_ruka-p.png":{
+	"frame": {"x":321,"y":132,"w":162,"h":169},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":169},
+	"sourceSize": {"w":162,"h":169}
+},
+"cow_shadow.png":{
+	"frame": {"x":1,"y":267,"w":302,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":302,"h":45},
+	"sourceSize": {"w":302,"h":45}
+},
+"cow_ucho-l.png":{
+	"frame": {"x":286,"y":416,"w":84,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":68},
+	"sourceSize": {"w":84,"h":68}
+},
+"cow_ucho-p.png":{
+	"frame": {"x":286,"y":352,"w":111,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":111,"h":62},
+	"sourceSize": {"w":111,"h":62}
+},
+"cow_usta-1.png":{
+	"frame": {"x":443,"y":303,"w":54,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":35},
+	"sourceSize": {"w":54,"h":35}
+},
+"cow_usta-2.png":{
+	"frame": {"x":485,"y":132,"w":20,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":29},
+	"sourceSize": {"w":20,"h":29}
+},
+"cow_vemeno.png":{
+	"frame": {"x":305,"y":303,"w":136,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":35},
+	"sourceSize": {"w":136,"h":35}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "cow_sprite.png",
+	"format": "RGBA8888",
+	"size": {"w":510,"h":575},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9f93db3743f999fabdf33e4480767d87:145c87042a5629d3a1f17701466ab6ba:9a61f3f7bbe6b1071d156f8572e8d118$"
+}
+}

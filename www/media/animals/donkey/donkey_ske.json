@@ -1,0 +1,2041 @@
+{
+  "skeleton": {
+    "spine": "3.3.07",
+    "images": "./image/"
+  },
+  "ik": [],
+  "bones": [
+    {
+      "name": "root",
+      "length": 0
+    },
+    {
+      "y": 27.8,
+      "length": 0,
+      "name": "donkey-body",
+      "parent": "root",
+      "x": -105.2
+    },
+    {
+      "rotation": -64.29,
+      "y": 37.7,
+      "length": 1,
+      "parent": "donkey-body",
+      "name": "donkey-body1",
+      "x": 8.6
+    },
+    {
+      "y": 2.6,
+      "length": 0,
+      "name": "donkey-head",
+      "parent": "donkey-body",
+      "x": 136.95
+    },
+    {
+      "y": 0.7,
+      "length": 0,
+      "name": "donkey-ear-l",
+      "parent": "donkey-head",
+      "x": 115.8
+    },
+    {
+      "y": 39.7,
+      "length": 0,
+      "name": "donkey-ear-r",
+      "parent": "donkey-head",
+      "x": 107.85
+    },
+    {
+      "rotation": -64.29,
+      "y": 88.7,
+      "length": 1,
+      "parent": "donkey-head",
+      "name": "donkey-eye",
+      "x": 45
+    },
+    {
+      "y": 166.1,
+      "length": 0,
+      "name": "donkey-mouth-2",
+      "parent": "donkey-head",
+      "x": -63.5
+    },
+    {
+      "y": 105.0985,
+      "length": 0,
+      "name": "donkey-leg-left-1",
+      "parent": "donkey-body1",
+      "x": 62.3677
+    },
+    {
+      "y": -89.6563,
+      "length": 0,
+      "name": "donkey-leg-l-2",
+      "parent": "donkey-body1",
+      "x": -19.6385
+    },
+    {
+      "y": -138.7025,
+      "length": 0,
+      "name": "donkey-tail-1",
+      "parent": "donkey-body1",
+      "x": -15.3954
+    },
+    {
+      "rotation": -115.71,
+      "y": 26.094,
+      "length": 0,
+      "parent": "donkey-body1",
+      "name": "donkey-leg-r-1",
+      "x": -55.6936
+    },
+    {
+      "rotation": -115.71,
+      "y": -95.0774,
+      "length": 0,
+      "parent": "donkey-body1",
+      "name": "donkey-leg-r-2",
+      "x": -86.1775
+    },
+    {
+      "rotation": -115.71,
+      "y": -5.6446,
+      "length": 1,
+      "parent": "donkey-body1",
+      "name": "donkey-ball",
+      "x": -180.4089
+    },
+    {
+      "rotation": -72.8311,
+      "y": -74.4478,
+      "length": 0,
+      "parent": "donkey-body1",
+      "name": "donkey-body2",
+      "x": 47.8949
+    },
+    {
+      "y": -36.4489,
+      "length": 0,
+      "name": "donkey-tail-11",
+      "parent": "donkey-tail-1",
+      "x": -43.2431
+    }
+  ],
+  "animations": {
+    "anim_idle": {
+      "bones": {
+        "donkey-ear-r": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": -3
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-mouth-2": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "root": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-body1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-ear-l": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": -5
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-eye": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-leg-left-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -4
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": -4
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-leg-r-2": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 3.71
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 3.71
+            }
+          ],
+          "translate": [
+            {
+              "y": -4.0182,
+              "time": 0,
+              "x": 8.3455
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": -4.0182,
+              "time": 1.6666,
+              "x": 8.3455
+            }
+          ]
+        },
+        "donkey-tail-11": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-body": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-ball": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 3.71
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 3.71
+            }
+          ],
+          "translate": [
+            {
+              "y": -3.4442,
+              "time": 0,
+              "x": 7.1533
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": -3.4442,
+              "time": 1.6666,
+              "x": 7.1533
+            }
+          ]
+        },
+        "donkey-leg-l-2": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -2
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": -2
+            }
+          ],
+          "translate": [
+            {
+              "y": -3.1572,
+              "time": 0,
+              "x": 6.5572
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": -3.1572,
+              "time": 1.6666,
+              "x": 6.5572
+            }
+          ]
+        },
+        "donkey-body2": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-leg-r-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -1.29
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": -1.29
+            }
+          ],
+          "translate": [
+            {
+              "y": -4.0182,
+              "time": 0,
+              "x": 8.3455
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": -4.0182,
+              "time": 1.6666,
+              "x": 8.3455
+            }
+          ]
+        },
+        "donkey-tail-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": 8
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-head": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": -3
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        }
+      }
+    },
+    "anim_voice": {
+      "slots": {
+        "donkey-mouth-2": {
+          "attachment": [
+            {
+              "curve": null,
+              "time": 0,
+              "name": "donkey-mouth-2"
+            },
+            {
+              "curve": null,
+              "time": 1.7083,
+              "name": null
+            },
+            {
+              "time": 1.7499,
+              "name": null
+            }
+          ]
+        },
+        "donkey-mouth-1": {
+          "attachment": [
+            {
+              "curve": null,
+              "time": 0,
+              "name": null
+            },
+            {
+              "curve": null,
+              "time": 1.7083,
+              "name": "donkey-mouth-1"
+            },
+            {
+              "time": 1.7499,
+              "name": "donkey-mouth-1"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "donkey-ear-r": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.5,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.75,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.25,
+              "angle": -10
+            },
+            {
+              "time": 1.5,
+              "angle": -10
+            },
+            {
+              "time": 1.75,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.25,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.5,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.75,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-mouth-2": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.5,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.7083,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.7499,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.25,
+              "angle": 0
+            },
+            {
+              "time": 1.5,
+              "angle": 0
+            },
+            {
+              "time": 1.7083,
+              "angle": 0
+            },
+            {
+              "time": 1.7499,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": -9.2624,
+              "time": 0,
+              "x": 9.924
+            },
+            {
+              "y": -3.0345,
+              "time": 0.25,
+              "x": -0.9286
+            },
+            {
+              "y": -3.0345,
+              "time": 1.5,
+              "x": -0.9286
+            },
+            {
+              "y": 0,
+              "time": 1.7083,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.7499,
+              "x": 0
+            }
+          ]
+        },
+        "root": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.75,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.75,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.75,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-body1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.75,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.75,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.75,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-ear-l": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.5,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.75,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.25,
+              "angle": -20
+            },
+            {
+              "time": 1.5,
+              "angle": -20
+            },
+            {
+              "time": 1.75,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.25,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.5,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.75,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-eye": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.5,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.75,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.25,
+              "angle": 0
+            },
+            {
+              "time": 1.5,
+              "angle": 0
+            },
+            {
+              "time": 1.75,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 4.4743,
+              "time": 0.25,
+              "x": -0.4703
+            },
+            {
+              "y": 4.4743,
+              "time": 1.5,
+              "x": -0.4703
+            },
+            {
+              "y": 0,
+              "time": 1.75,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-leg-left-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.5,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.75,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -4
+            },
+            {
+              "time": 0.25,
+              "angle": -20
+            },
+            {
+              "time": 1.5,
+              "angle": -20
+            },
+            {
+              "time": 1.75,
+              "angle": -4
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.25,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.5,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.75,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-leg-r-2": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.5,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.75,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 3.71
+            },
+            {
+              "time": 0.25,
+              "angle": 5.71
+            },
+            {
+              "time": 1.5,
+              "angle": 5.71
+            },
+            {
+              "time": 1.75,
+              "angle": 3.71
+            }
+          ],
+          "translate": [
+            {
+              "y": -4.0182,
+              "time": 0,
+              "x": 8.3455
+            },
+            {
+              "y": 2.5831,
+              "time": 0.25,
+              "x": -5.365
+            },
+            {
+              "y": 2.5831,
+              "time": 1.5,
+              "x": -5.365
+            },
+            {
+              "y": -4.0182,
+              "time": 1.75,
+              "x": 8.3455
+            }
+          ]
+        },
+        "donkey-tail-11": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.5,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.75,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.25,
+              "angle": 15
+            },
+            {
+              "time": 1.5,
+              "angle": 15
+            },
+            {
+              "time": 1.75,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.25,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.5,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.75,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-body": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.75,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.75,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.75,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-ball": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.5,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.75,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 3.71
+            },
+            {
+              "time": 0.25,
+              "angle": -9.29
+            },
+            {
+              "time": 1.5,
+              "angle": -9.29
+            },
+            {
+              "time": 1.75,
+              "angle": 3.71
+            }
+          ],
+          "translate": [
+            {
+              "y": -3.4442,
+              "time": 0,
+              "x": 7.1533
+            },
+            {
+              "y": 30.7105,
+              "time": 0.25,
+              "x": -63.7833
+            },
+            {
+              "y": 30.7105,
+              "time": 1.5,
+              "x": -63.7833
+            },
+            {
+              "y": -3.4442,
+              "time": 1.75,
+              "x": 7.1533
+            }
+          ]
+        },
+        "donkey-leg-l-2": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.5,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.75,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -2
+            },
+            {
+              "time": 0.25,
+              "angle": 5
+            },
+            {
+              "time": 1.5,
+              "angle": 5
+            },
+            {
+              "time": 1.75,
+              "angle": -2
+            }
+          ],
+          "translate": [
+            {
+              "y": -3.1572,
+              "time": 0,
+              "x": 6.5572
+            },
+            {
+              "y": 3.7312,
+              "time": 0.25,
+              "x": -7.7494
+            },
+            {
+              "y": 3.7312,
+              "time": 1.5,
+              "x": -7.7494
+            },
+            {
+              "y": -3.1572,
+              "time": 1.75,
+              "x": 6.5572
+            }
+          ]
+        },
+        "donkey-body2": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.75,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.75,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.75,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-leg-r-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.5,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.75,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -1.29
+            },
+            {
+              "time": 0.25,
+              "angle": -9.29
+            },
+            {
+              "time": 1.5,
+              "angle": -9.29
+            },
+            {
+              "time": 1.75,
+              "angle": -1.29
+            }
+          ],
+          "translate": [
+            {
+              "y": -4.0182,
+              "time": 0,
+              "x": 8.3455
+            },
+            {
+              "y": 0,
+              "time": 0.25,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.5,
+              "x": 0
+            },
+            {
+              "y": -4.0182,
+              "time": 1.75,
+              "x": 8.3455
+            }
+          ]
+        },
+        "donkey-tail-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.5,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.75,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.25,
+              "angle": 20
+            },
+            {
+              "time": 1.5,
+              "angle": 20
+            },
+            {
+              "time": 1.75,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.25,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.5,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.75,
+              "x": 0
+            }
+          ]
+        },
+        "donkey-head": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.5,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.75,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.25,
+              "angle": -7
+            },
+            {
+              "time": 1.5,
+              "angle": -7
+            },
+            {
+              "time": 1.75,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.25,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.5,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.75,
+              "x": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "skins": {
+    "default": {
+      "donkey-ear-r": {
+        "donkey-ear-r": {
+          "height": 65,
+          "y": 5.7961,
+          "width": 180,
+          "name": "donkey-ear-r",
+          "x": 77.2194
+        }
+      },
+      "donkey-mouth-2": {
+        "donkey-mouth-2": {
+          "height": 44,
+          "y": 2.6509,
+          "width": 45,
+          "name": "donkey-mouth-2",
+          "x": 3.8351
+        }
+      },
+      "donkey-ear-l": {
+        "donkey-ear-l": {
+          "height": 189,
+          "y": 76.1575,
+          "width": 88,
+          "name": "donkey-ear-l",
+          "x": 31.6845
+        }
+      },
+      "donkey-eye": {
+        "donkey-eye": {
+          "rotation": 64.29,
+          "y": -1.9385,
+          "x": 3.7766,
+          "width": 28,
+          "name": "donkey-eye",
+          "height": 24
+        }
+      },
+      "donkey-leg-l-2": {
+        "donkey-leg-l-2": {
+          "rotation": 64.29,
+          "y": 35.7875,
+          "x": -37.8375,
+          "width": 95,
+          "name": "donkey-leg-l-2",
+          "height": 162
+        }
+      },
+      "donkey-leg-r-2": {
+        "donkey-leg-r-2": {
+          "rotation": -180,
+          "y": -16.7114,
+          "x": -5.3135,
+          "width": 62,
+          "name": "donkey-leg-r-2",
+          "height": 113
+        }
+      },
+      "donkey-body": {
+        "donkey-body": {
+          "rotation": 64.29,
+          "y": 90.9635,
+          "x": 42.1811,
+          "width": 504,
+          "name": "donkey-body",
+          "height": 165
+        }
+      },
+      "donkey-ball": {
+        "donkey-ball": {
+          "rotation": 179.8122,
+          "y": -3.9747,
+          "x": -0.8163,
+          "width": 205,
+          "name": "donkey-ball",
+          "height": 202
+        }
+      },
+      "donkey-shadow": {
+        "donkey-shadow": {
+          "rotation": 137.1211,
+          "y": 115.7465,
+          "x": -104.4836,
+          "width": 691,
+          "name": "donkey-shadow",
+          "height": 124
+        }
+      },
+      "donkey-mouth-1": {
+        "donkey-mouth-1": {
+          "height": 53,
+          "y": -2.55,
+          "width": 73,
+          "name": "donkey-mouth-1",
+          "x": 19.9643
+        }
+      },
+      "donkey-leg-r-1": {
+        "donkey-leg-r-1": {
+          "rotation": 180,
+          "y": -28.7887,
+          "x": 3.8413,
+          "width": 51,
+          "name": "donkey-leg-r-1",
+          "height": 86
+        }
+      },
+      "donkey-leg-left-1": {
+        "donkey-leg-left-1": {
+          "rotation": 64.29,
+          "y": -30.6129,
+          "x": -22.9592,
+          "width": 101,
+          "name": "donkey-leg-left-1",
+          "height": 52
+        }
+      },
+      "donkey-tail-2": {
+        "donkey-tail-2": {
+          "rotation": 64.29,
+          "y": 28.642,
+          "x": -38.1744,
+          "width": 75,
+          "name": "donkey-tail-2",
+          "height": 132
+        }
+      },
+      "donkey-head": {
+        "donkey-head": {
+          "height": 238,
+          "y": 86.5483,
+          "width": 230,
+          "name": "donkey-head",
+          "x": 22.9099
+        }
+      },
+      "donkey-tail-1": {
+        "donkey-tail-1": {
+          "rotation": 64.29,
+          "y": -0.2784,
+          "x": -2.1584,
+          "width": 110,
+          "name": "donkey-tail-1",
+          "height": 52
+        }
+      }
+    }
+  },
+  "slots": [
+    {
+      "attachment": "donkey-shadow",
+      "bone": "donkey-body2",
+      "color": "ffffffff",
+      "name": "donkey-shadow"
+    },
+    {
+      "attachment": "donkey-head",
+      "bone": "donkey-head",
+      "color": "ffffffff",
+      "name": "donkey-head"
+    },
+    {
+      "attachment": "donkey-tail-2",
+      "bone": "donkey-tail-11",
+      "color": "ffffffff",
+      "name": "donkey-tail-2"
+    },
+    {
+      "attachment": "donkey-tail-1",
+      "bone": "donkey-tail-1",
+      "color": "ffffffff",
+      "name": "donkey-tail-1"
+    },
+    {
+      "attachment": "donkey-ear-r",
+      "bone": "donkey-ear-r",
+      "color": "ffffffff",
+      "name": "donkey-ear-r"
+    },
+    {
+      "attachment": "donkey-leg-r-2",
+      "bone": "donkey-leg-r-2",
+      "color": "ffffffff",
+      "name": "donkey-leg-r-2"
+    },
+    {
+      "attachment": "donkey-leg-r-1",
+      "bone": "donkey-leg-r-1",
+      "color": "ffffffff",
+      "name": "donkey-leg-r-1"
+    },
+    {
+      "attachment": "donkey-body",
+      "bone": "donkey-body1",
+      "color": "ffffffff",
+      "name": "donkey-body"
+    },
+    {
+      "attachment": "donkey-ball",
+      "bone": "donkey-ball",
+      "color": "ffffffff",
+      "name": "donkey-ball"
+    },
+    {
+      "attachment": "donkey-leg-left-1",
+      "bone": "donkey-leg-left-1",
+      "color": "ffffffff",
+      "name": "donkey-leg-left-1"
+    },
+    {
+      "attachment": "donkey-eye",
+      "bone": "donkey-eye",
+      "color": "ffffffff",
+      "name": "donkey-eye"
+    },
+    {
+      "attachment": "donkey-leg-l-2",
+      "bone": "donkey-leg-l-2",
+      "color": "ffffffff",
+      "name": "donkey-leg-l-2"
+    },
+    {
+      "attachment": "donkey-mouth-1",
+      "bone": "donkey-mouth-2",
+      "color": "ffffffff",
+      "name": "donkey-mouth-1"
+    },
+    {
+      "attachment": "donkey-ear-l",
+      "bone": "donkey-ear-l",
+      "color": "ffffffff",
+      "name": "donkey-ear-l"
+    },
+    {
+      "bone": "donkey-mouth-2",
+      "color": "ffffffff",
+      "name": "donkey-mouth-2"
+    }
+  ],
+  "events": {}
+}

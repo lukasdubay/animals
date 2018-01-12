@@ -1,0 +1,103 @@
+{"frames": {
+
+"gooose-hat.png": {
+	"frame": {"x":265,"y":362,"w":103,"h":90},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":103,"h":90},
+	"sourceSize": {"w":103,"h":90}
+},
+"goose-beak-1.png": {
+	"frame": {"x":435,"y":65,"w":41,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":49},
+	"sourceSize": {"w":41,"h":49}
+},
+"goose-beak-2.png": {
+	"frame": {"x":274,"y":186,"w":42,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":42,"h":50},
+	"sourceSize": {"w":42,"h":50}
+},
+"goose-body.png": {
+	"frame": {"x":1,"y":1,"w":328,"h":183},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":328,"h":183},
+	"sourceSize": {"w":328,"h":183}
+},
+"goose-eyes-1.png": {
+	"frame": {"x":159,"y":241,"w":41,"h":7},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":7},
+	"sourceSize": {"w":41,"h":7}
+},
+"goose-eyes-2.png": {
+	"frame": {"x":274,"y":238,"w":35,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":15},
+	"sourceSize": {"w":35,"h":15}
+},
+"goose-head.png": {
+	"frame": {"x":1,"y":186,"w":156,"h":224},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":224},
+	"sourceSize": {"w":156,"h":224}
+},
+"goose-leg-l.png": {
+	"frame": {"x":370,"y":362,"w":73,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":62},
+	"sourceSize": {"w":73,"h":62}
+},
+"goose-leg-r.png": {
+	"frame": {"x":435,"y":1,"w":65,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":65,"h":62},
+	"sourceSize": {"w":65,"h":62}
+},
+"goose-pot.png": {
+	"frame": {"x":159,"y":186,"w":113,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":53},
+	"sourceSize": {"w":113,"h":53}
+},
+"goose-soup.png": {
+	"frame": {"x":159,"y":362,"w":104,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":43},
+	"sourceSize": {"w":104,"h":43}
+},
+"goose-tien.png": {
+	"frame": {"x":159,"y":285,"w":332,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":332,"h":75},
+	"sourceSize": {"w":332,"h":75}
+},
+"goose-wing.png": {
+	"frame": {"x":331,"y":1,"w":102,"h":282},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":102,"h":282},
+	"sourceSize": {"w":102,"h":282}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "goose_sprite.png",
+	"format": "RGBA8888",
+	"size": {"w":501,"h":453},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:dd4ca03fb7c2770d0ca0082e6ff0c893:f8a712645dff3c80e1effedd7bccd1b4:d700801ae84e30f1a0752d896e07b91f$"
+}
+}

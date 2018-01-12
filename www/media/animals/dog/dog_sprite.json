@@ -1,0 +1,110 @@
+{"frames": {
+
+"dog-body.png":{
+	"frame": {"x":1,"y":306,"w":225,"h":228},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":225,"h":228},
+	"sourceSize": {"w":225,"h":228}
+},
+"dog-ear-l.png":{
+	"frame": {"x":277,"y":1,"w":70,"h":255},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":255},
+	"sourceSize": {"w":70,"h":255}
+},
+"dog-ear-r.png":{
+	"frame": {"x":349,"y":1,"w":66,"h":252},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":252},
+	"sourceSize": {"w":66,"h":252}
+},
+"dog-eyes-1.png":{
+	"frame": {"x":343,"y":374,"w":87,"h":13},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":13},
+	"sourceSize": {"w":87,"h":13}
+},
+"dog-eyes-2.png":{
+	"frame": {"x":274,"y":320,"w":73,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":26},
+	"sourceSize": {"w":73,"h":26}
+},
+"dog-hand-l.png":{
+	"frame": {"x":228,"y":348,"w":113,"h":115},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":115},
+	"sourceSize": {"w":113,"h":115}
+},
+"dog-hat.png":{
+	"frame": {"x":1,"y":536,"w":182,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":182,"h":103},
+	"sourceSize": {"w":182,"h":103}
+},
+"dog-legs.png":{
+	"frame": {"x":228,"y":465,"w":206,"h":118},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":206,"h":118},
+	"sourceSize": {"w":206,"h":118}
+},
+"dog-nose.png":{
+	"frame": {"x":228,"y":306,"w":44,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":44,"h":25},
+	"sourceSize": {"w":44,"h":25}
+},
+"dog-shadow.png":{
+	"frame": {"x":1,"y":641,"w":435,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":435,"h":103},
+	"sourceSize": {"w":435,"h":103}
+},
+"dog-tail.png":{
+	"frame": {"x":349,"y":255,"w":91,"h":117},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":117},
+	"sourceSize": {"w":91,"h":117}
+},
+"dog-usta-1.png":{
+	"frame": {"x":277,"y":258,"w":41,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":60},
+	"sourceSize": {"w":41,"h":60}
+},
+"dog-usta-2.png":{
+	"frame": {"x":417,"y":1,"w":24,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":29},
+	"sourceSize": {"w":24,"h":29}
+},
+"doh-head.png":{
+	"frame": {"x":1,"y":1,"w":274,"h":303},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":274,"h":303},
+	"sourceSize": {"w":274,"h":303}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "dog_sprite.png",
+	"format": "RGBA8888",
+	"size": {"w":442,"h":745},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:86b6c176e2b6edb519560e2a251a7b35:6ca1d288b35aa0fc5bbf1424f786e26e:4bd2096efddfc3aa94a3eac3328d413b$"
+}
+}

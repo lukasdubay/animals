@@ -1,0 +1,1897 @@
+{
+  "skins": {
+    "default": {
+      "rabbit-eyes-2": {
+        "rabbit-eyes-2": {
+          "height": 10,
+          "y": -1.3426,
+          "width": 51,
+          "name": "rabbit-eyes-2",
+          "x": -12.5931
+        }
+      },
+      "rabbit-shadow": {
+        "rabbit-shadow": {
+          "height": 60,
+          "y": -13.95,
+          "width": 276,
+          "name": "rabbit-shadow",
+          "x": -0.1
+        }
+      },
+      "rabbit-nose": {
+        "rabbit-nose": {
+          "rotation": -90,
+          "y": -0.4488,
+          "x": -1.688,
+          "width": 48,
+          "name": "rabbit-nose",
+          "height": 12
+        }
+      },
+      "rabbit-hand-left-2": {
+        "rabbit-hand-left-2": {
+          "rotation": 180,
+          "y": -16.1489,
+          "x": 35.7984,
+          "width": 92,
+          "name": "rabbit-hand-left-2",
+          "height": 127
+        }
+      },
+      "rabbit-mouth-2": {
+        "rabbit-mouth-2": {
+          "rotation": 90,
+          "y": -0.4177,
+          "x": 0.2389,
+          "width": 24,
+          "name": "rabbit-mouth-2",
+          "height": 20
+        }
+      },
+      "rabbit-ear-r": {
+        "rabbit-ear-r": {
+          "height": 251,
+          "y": 85.7601,
+          "width": 83,
+          "name": "rabbit-ear-r",
+          "x": 9.9761
+        }
+      },
+      "rabbit-hand-left": {
+        "rabbit-hand-left": {
+          "rotation": 180,
+          "y": -16.2805,
+          "x": 35.6096,
+          "width": 92,
+          "name": "rabbit-hand-left",
+          "height": 127
+        }
+      },
+      "rabbit-lancuch": {
+        "rabbit-lancuch": {
+          "rotation": 62.354,
+          "y": -11.2831,
+          "x": 23.2227,
+          "width": 28,
+          "name": "rabbit-lancuch",
+          "height": 58
+        }
+      },
+      "rabbit-ear-l": {
+        "rabbit-ear-l": {
+          "rotation": 90,
+          "y": -56.9939,
+          "x": -18.4049,
+          "width": 179,
+          "name": "rabbit-ear-l",
+          "height": 102
+        }
+      },
+      "rabbit-hand-r": {
+        "rabbit-hand-r": {
+          "height": 103,
+          "y": 23.1193,
+          "width": 47,
+          "name": "rabbit-hand-r",
+          "x": 14.0074
+        }
+      },
+      "rabbit-mouth-1": {
+        "rabbit-mouth-1": {
+          "rotation": 90,
+          "y": -10.3972,
+          "x": -0.4682,
+          "width": 50,
+          "name": "rabbit-mouth-1",
+          "height": 35
+        }
+      },
+      "rabbit-body": {
+        "rabbit-body": {
+          "rotation": 180,
+          "y": 0.4373,
+          "x": -23.826,
+          "width": 171,
+          "name": "rabbit-body",
+          "height": 130
+        }
+      },
+      "rabbit-head": {
+        "rabbit-head": {
+          "height": 183,
+          "y": 74.6677,
+          "width": 153,
+          "name": "rabbit-head",
+          "x": -22.1588
+        }
+      },
+      "rabbit-legs": {
+        "rabbit-legs": {
+          "rotation": -154.5367,
+          "y": 0.4024,
+          "x": -20.4264,
+          "width": 170,
+          "name": "rabbit-legs",
+          "height": 72
+        }
+      },
+      "rabbit-eyes-1": {
+        "rabbit-eyes-1": {
+          "height": 8,
+          "y": -3.6029,
+          "width": 55,
+          "name": "rabbit-eyes-1",
+          "x": -13.6464
+        }
+      }
+    }
+  },
+  "animations": {
+    "anim_idle": {
+      "bones": {
+        "root": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-shadow": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-nose": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": -1.2621,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": -1.2621,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-body1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": -4.079,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": -4.079,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-hand-left": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -4
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": -4
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-lancuch": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -5.646
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": -5.646
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-ear-l": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 2
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 2
+            }
+          ],
+          "translate": [
+            {
+              "y": 1.6922,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 1.6922,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-hand-r": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 355
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 355
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-mouth-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": -0.2412,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": -0.2412,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-body2": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": -7.4791,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": -7.4791,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-body": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-legs": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-eyes-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": -1.1061,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": -1.1061,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-ear-l1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 2
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 2
+            }
+          ],
+          "translate": [
+            {
+              "y": 1.4376,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 1.4376,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        }
+      }
+    },
+    "anim_voice": {
+      "slots": {
+        "rabbit-eyes-2": {
+          "attachment": [
+            {
+              "curve": null,
+              "time": 0,
+              "name": "rabbit-eyes-2"
+            },
+            {
+              "curve": null,
+              "time": 1.125,
+              "name": null
+            },
+            {
+              "time": 1.1666,
+              "name": null
+            }
+          ]
+        },
+        "rabbit-mouth-1": {
+          "attachment": [
+            {
+              "curve": null,
+              "time": 0,
+              "name": null
+            },
+            {
+              "curve": null,
+              "time": 1.125,
+              "name": "rabbit-mouth-1"
+            },
+            {
+              "time": 1.1666,
+              "name": "rabbit-mouth-1"
+            }
+          ]
+        },
+        "rabbit-hand-left-2": {
+          "attachment": [
+            {
+              "curve": null,
+              "time": 0,
+              "name": "rabbit-hand-left-2"
+            },
+            {
+              "curve": null,
+              "time": 1.125,
+              "name": null
+            },
+            {
+              "time": 1.1666,
+              "name": null
+            }
+          ]
+        },
+        "rabbit-mouth-2": {
+          "attachment": [
+            {
+              "curve": null,
+              "time": 0,
+              "name": "rabbit-mouth-2"
+            },
+            {
+              "curve": null,
+              "time": 1.125,
+              "name": null
+            },
+            {
+              "time": 1.1666,
+              "name": null
+            }
+          ]
+        },
+        "rabbit-eyes-1": {
+          "attachment": [
+            {
+              "curve": null,
+              "time": 0,
+              "name": null
+            },
+            {
+              "curve": null,
+              "time": 1.125,
+              "name": "rabbit-eyes-1"
+            },
+            {
+              "time": 1.1666,
+              "name": "rabbit-eyes-1"
+            }
+          ]
+        },
+        "rabbit-hand-left": {
+          "attachment": [
+            {
+              "curve": null,
+              "time": 0,
+              "name": null
+            },
+            {
+              "curve": null,
+              "time": 1.125,
+              "name": "rabbit-hand-left"
+            },
+            {
+              "time": 1.1666,
+              "name": "rabbit-hand-left"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "root": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.1666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.1666,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-shadow": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.1666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.1666,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-nose": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.9166,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1665,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.25,
+              "angle": 0
+            },
+            {
+              "time": 0.9166,
+              "angle": 0
+            },
+            {
+              "time": 1.1665,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": -1.2621,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 4.307,
+              "time": 0.25,
+              "x": -0.9789
+            },
+            {
+              "y": 4.307,
+              "time": 0.9166,
+              "x": -0.9789
+            },
+            {
+              "y": -1.2621,
+              "time": 1.1665,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-body1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.9166,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1665,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.25,
+              "angle": 0
+            },
+            {
+              "time": 0.9166,
+              "angle": 0
+            },
+            {
+              "time": 1.1665,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": -4.079,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 8.8337,
+              "time": 0.25,
+              "x": 0
+            },
+            {
+              "y": 8.8337,
+              "time": 0.9166,
+              "x": 0
+            },
+            {
+              "y": -4.079,
+              "time": 1.1665,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-hand-left": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.9166,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1665,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -4
+            },
+            {
+              "time": 0.25,
+              "angle": 10
+            },
+            {
+              "time": 0.9166,
+              "angle": 10
+            },
+            {
+              "time": 1.1665,
+              "angle": -4
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": -1.8929,
+              "time": 0.25,
+              "x": -1.262
+            },
+            {
+              "y": -1.8929,
+              "time": 0.9166,
+              "x": -1.262
+            },
+            {
+              "y": 0,
+              "time": 1.1665,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-lancuch": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.9166,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1665,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -5.646
+            },
+            {
+              "time": 0.25,
+              "angle": 22.354
+            },
+            {
+              "time": 0.9166,
+              "angle": 22.354
+            },
+            {
+              "time": 1.1665,
+              "angle": -5.646
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.25,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.9166,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.1665,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-ear-l": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.9166,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1665,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 2
+            },
+            {
+              "time": 0.25,
+              "angle": -30.6912
+            },
+            {
+              "time": 0.9166,
+              "angle": -30.6912
+            },
+            {
+              "time": 1.1665,
+              "angle": 2
+            }
+          ],
+          "translate": [
+            {
+              "y": 1.6922,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0.9509,
+              "time": 0.25,
+              "x": -1.5103
+            },
+            {
+              "y": 0.9509,
+              "time": 0.9166,
+              "x": -1.5103
+            },
+            {
+              "y": 1.6922,
+              "time": 1.1665,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-hand-r": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.9166,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1665,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 355
+            },
+            {
+              "time": 0.25,
+              "angle": 10
+            },
+            {
+              "time": 0.9166,
+              "angle": 10
+            },
+            {
+              "time": 1.1665,
+              "angle": 355
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.25,
+              "x": 1.8929
+            },
+            {
+              "y": 0,
+              "time": 0.9166,
+              "x": 1.8929
+            },
+            {
+              "y": 0,
+              "time": 1.1665,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-mouth-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.9166,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1665,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.25,
+              "angle": 0
+            },
+            {
+              "time": 0.9166,
+              "angle": 0
+            },
+            {
+              "time": 1.1665,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": -0.2412,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 1.7801,
+              "time": 0.25,
+              "x": -6.9723
+            },
+            {
+              "y": 1.7801,
+              "time": 0.9166,
+              "x": -6.9723
+            },
+            {
+              "y": -0.2412,
+              "time": 1.1665,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-body2": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.9166,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1665,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.25,
+              "angle": -12.8043
+            },
+            {
+              "time": 0.9166,
+              "angle": -12.8043
+            },
+            {
+              "time": 1.1665,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": -7.4791,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 4.4323,
+              "time": 0.25,
+              "x": 0
+            },
+            {
+              "y": 4.4323,
+              "time": 0.9166,
+              "x": 0
+            },
+            {
+              "y": -7.4791,
+              "time": 1.1665,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-body": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.1666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.1666,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-legs": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.1666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.1666,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-eyes-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.9166,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1665,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.25,
+              "angle": 0
+            },
+            {
+              "time": 0.9166,
+              "angle": 0
+            },
+            {
+              "time": 1.1665,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": -1.1061,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": -3.1995,
+              "time": 0.25,
+              "x": 0.7272
+            },
+            {
+              "y": -3.1995,
+              "time": 0.9166,
+              "x": 0.7272
+            },
+            {
+              "y": -1.1061,
+              "time": 1.1665,
+              "x": 0
+            }
+          ]
+        },
+        "rabbit-ear-l1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.25,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.9166,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1665,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 2
+            },
+            {
+              "time": 0.25,
+              "angle": -36.7941
+            },
+            {
+              "time": 0.9166,
+              "angle": -36.7941
+            },
+            {
+              "time": 1.1665,
+              "angle": 2
+            }
+          ],
+          "translate": [
+            {
+              "y": 1.4376,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 7.2716,
+              "time": 0.25,
+              "x": 3.5239
+            },
+            {
+              "y": 7.2716,
+              "time": 0.9166,
+              "x": 3.5239
+            },
+            {
+              "y": 1.4376,
+              "time": 1.1665,
+              "x": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "ik": [],
+  "bones": [
+    {
+      "name": "root",
+      "length": 0
+    },
+    {
+      "y": 77.65,
+      "length": 0,
+      "name": "rabbit-body",
+      "parent": "root",
+      "x": -7.45
+    },
+    {
+      "y": -78.2,
+      "length": 0,
+      "name": "rabbit-shadow",
+      "parent": "rabbit-body",
+      "x": 42.55
+    },
+    {
+      "rotation": -180,
+      "y": 17.55,
+      "length": 0,
+      "parent": "rabbit-body",
+      "name": "rabbit-body1",
+      "x": -0.55
+    },
+    {
+      "rotation": 154.5367,
+      "y": -40.95,
+      "length": 1,
+      "parent": "rabbit-body",
+      "name": "rabbit-legs",
+      "x": -17.55
+    },
+    {
+      "y": 71.8,
+      "length": 0,
+      "name": "rabbit-body2",
+      "parent": "rabbit-body",
+      "x": 52.15
+    },
+    {
+      "y": -24.45,
+      "length": 0,
+      "name": "rabbit-hand-left",
+      "parent": "rabbit-body1",
+      "x": 19.65
+    },
+    {
+      "rotation": 117.646,
+      "y": -13.3,
+      "length": 1,
+      "parent": "rabbit-body1",
+      "name": "rabbit-lancuch",
+      "x": -23.4
+    },
+    {
+      "rotation": -180,
+      "y": -28.7,
+      "length": 0,
+      "parent": "rabbit-body1",
+      "name": "rabbit-hand-r",
+      "x": -96.3
+    },
+    {
+      "rotation": -90,
+      "y": 22.85,
+      "length": 1,
+      "parent": "rabbit-body2",
+      "name": "rabbit-mouth-1",
+      "x": -23.95
+    },
+    {
+      "rotation": -90,
+      "y": 151.05,
+      "length": 1,
+      "parent": "rabbit-body2",
+      "name": "rabbit-ear-l1",
+      "x": -5.9
+    },
+    {
+      "y": 72.35,
+      "length": 0,
+      "name": "rabbit-eyes-1",
+      "parent": "rabbit-body2",
+      "x": -34.6
+    },
+    {
+      "rotation": 90,
+      "y": 46.3,
+      "length": 1,
+      "parent": "rabbit-body2",
+      "name": "rabbit-nose",
+      "x": -70.75
+    },
+    {
+      "y": 136.15,
+      "length": 0,
+      "name": "rabbit-ear-l",
+      "parent": "rabbit-body2",
+      "x": 22.3
+    }
+  ],
+  "skeleton": {
+    "spine": "3.3.07",
+    "images": "./image/"
+  },
+  "slots": [
+    {
+      "attachment": "rabbit-shadow",
+      "bone": "rabbit-shadow",
+      "color": "ffffffff",
+      "name": "rabbit-shadow"
+    },
+    {
+      "bone": "rabbit-hand-left",
+      "color": "ffffffff",
+      "name": "rabbit-hand-left-2"
+    },
+    {
+      "attachment": "rabbit-hand-left",
+      "bone": "rabbit-hand-left",
+      "color": "ffffffff",
+      "name": "rabbit-hand-left"
+    },
+    {
+      "attachment": "rabbit-legs",
+      "bone": "rabbit-legs",
+      "color": "ffffffff",
+      "name": "rabbit-legs"
+    },
+    {
+      "attachment": "rabbit-body",
+      "bone": "rabbit-body1",
+      "color": "ffffffff",
+      "name": "rabbit-body"
+    },
+    {
+      "attachment": "rabbit-ear-l",
+      "bone": "rabbit-ear-l1",
+      "color": "ffffffff",
+      "name": "rabbit-ear-l"
+    },
+    {
+      "attachment": "rabbit-ear-r",
+      "bone": "rabbit-ear-l",
+      "color": "ffffffff",
+      "name": "rabbit-ear-r"
+    },
+    {
+      "attachment": "rabbit-lancuch",
+      "bone": "rabbit-lancuch",
+      "color": "ffffffff",
+      "name": "rabbit-lancuch"
+    },
+    {
+      "attachment": "rabbit-head",
+      "bone": "rabbit-body2",
+      "color": "ffffffff",
+      "name": "rabbit-head"
+    },
+    {
+      "attachment": "rabbit-hand-r",
+      "bone": "rabbit-hand-r",
+      "color": "ffffffff",
+      "name": "rabbit-hand-r"
+    },
+    {
+      "bone": "rabbit-mouth-1",
+      "color": "ffffffff",
+      "name": "rabbit-mouth-2"
+    },
+    {
+      "bone": "rabbit-eyes-1",
+      "color": "ffffffff",
+      "name": "rabbit-eyes-2"
+    },
+    {
+      "attachment": "rabbit-mouth-1",
+      "bone": "rabbit-mouth-1",
+      "color": "ffffffff",
+      "name": "rabbit-mouth-1"
+    },
+    {
+      "attachment": "rabbit-eyes-1",
+      "bone": "rabbit-eyes-1",
+      "color": "ffffffff",
+      "name": "rabbit-eyes-1"
+    },
+    {
+      "attachment": "rabbit-nose",
+      "bone": "rabbit-nose",
+      "color": "ffffffff",
+      "name": "rabbit-nose"
+    }
+  ],
+  "events": {}
+}

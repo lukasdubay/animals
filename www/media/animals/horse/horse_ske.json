@@ -1,0 +1,1899 @@
+{
+  "skeleton": {
+    "spine": "3.3.07",
+    "images": "./image/"
+  },
+  "animations": {
+    "anim_idle": {
+      "bones": {
+        "horse-body1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": -6.9782,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": -6.9782,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "root": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "horse-arm-r": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": -3.9369,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": -3.9369,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "horse-leg-l-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -4.2163
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": -4.2163
+            }
+          ],
+          "translate": [
+            {
+              "y": -8.9987,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": -8.9987,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "horse-shadow": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "horse-body": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "horse-head": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": -2.8302,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": -2.8302,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "horse-usta-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 1.6812,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 1.6812,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "horse-tail": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 12.1031
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 12.1031
+            }
+          ],
+          "translate": [
+            {
+              "y": -10.686,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": -10.686,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "horse-leg-r-2": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 13.7435
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 13.7435
+            }
+          ],
+          "translate": [
+            {
+              "y": 9.7049,
+              "time": 0,
+              "x": 0.2794
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 9.7049,
+              "time": 1.6666,
+              "x": 0.2794
+            }
+          ]
+        },
+        "horse-ruka-l": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": -4.4994,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": -4.4994,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "horse-oci-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": -1.6812,
+              "time": 0.8333,
+              "x": 3.3625
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "horse-leg-l-2": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 5.0012
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 5.0012
+            }
+          ],
+          "translate": [
+            {
+              "y": 1.2392,
+              "time": 0,
+              "x": 3.4053
+            },
+            {
+              "y": -3.3745,
+              "time": 0.8333,
+              "x": 1.6873
+            },
+            {
+              "y": 1.2392,
+              "time": 1.6666,
+              "x": 3.4053
+            }
+          ]
+        },
+        "horse-leg-r-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -8.3587
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": -8.3587
+            }
+          ],
+          "translate": [
+            {
+              "y": -8.2621,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": -8.2621,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        }
+      }
+    },
+    "anim_voice": {
+      "slots": {
+        "horse-usta-1": {
+          "attachment": [
+            {
+              "curve": null,
+              "time": 0,
+              "name": null
+            },
+            {
+              "curve": null,
+              "time": 1.4583,
+              "name": "horse-usta-1"
+            },
+            {
+              "time": 1.4999,
+              "name": "horse-usta-1"
+            }
+          ]
+        },
+        "horse-oci-1": {
+          "attachment": [
+            {
+              "curve": null,
+              "time": 0,
+              "name": null
+            },
+            {
+              "curve": null,
+              "time": 1.4583,
+              "name": "horse-oci-1"
+            },
+            {
+              "time": 1.4999,
+              "name": "horse-oci-1"
+            }
+          ]
+        },
+        "horse-usta-2": {
+          "attachment": [
+            {
+              "curve": null,
+              "time": 0,
+              "name": "horse-usta-2"
+            },
+            {
+              "curve": null,
+              "time": 1.4583,
+              "name": null
+            },
+            {
+              "time": 1.4999,
+              "name": null
+            }
+          ]
+        },
+        "horse-oci-2": {
+          "attachment": [
+            {
+              "curve": null,
+              "time": 0,
+              "name": "horse-oci-2"
+            },
+            {
+              "curve": null,
+              "time": 1.4583,
+              "name": null
+            },
+            {
+              "time": 1.4999,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "horse-body1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.2083,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.4999,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2083,
+              "angle": -4.7219
+            },
+            {
+              "time": 1.1666,
+              "angle": -4.7219
+            },
+            {
+              "time": 1.4999,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": -6.9782,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.2083,
+              "x": 10.6134
+            },
+            {
+              "y": 0,
+              "time": 1.1666,
+              "x": 10.6134
+            },
+            {
+              "y": -6.9782,
+              "time": 1.4999,
+              "x": 0
+            }
+          ]
+        },
+        "root": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.5,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.5,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.5,
+              "x": 0
+            }
+          ]
+        },
+        "horse-arm-r": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.2083,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.4999,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2083,
+              "angle": 7.4882
+            },
+            {
+              "time": 1.1666,
+              "angle": 7.4882
+            },
+            {
+              "time": 1.4999,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": -3.9369,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.2083,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.1666,
+              "x": 0
+            },
+            {
+              "y": -3.9369,
+              "time": 1.4999,
+              "x": 0
+            }
+          ]
+        },
+        "horse-leg-l-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.2083,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.4999,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -4.2163
+            },
+            {
+              "time": 0.2083,
+              "angle": 0
+            },
+            {
+              "time": 1.1666,
+              "angle": 0
+            },
+            {
+              "time": 1.4999,
+              "angle": -4.2163
+            }
+          ],
+          "translate": [
+            {
+              "y": -8.9987,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.2083,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.1666,
+              "x": 0
+            },
+            {
+              "y": -8.9987,
+              "time": 1.4999,
+              "x": 0
+            }
+          ]
+        },
+        "horse-shadow": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.5,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.5,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.5,
+              "x": 0
+            }
+          ]
+        },
+        "horse-body": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.5,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.5,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.5,
+              "x": 0
+            }
+          ]
+        },
+        "horse-head": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.2083,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.4999,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2083,
+              "angle": -17.9942
+            },
+            {
+              "time": 1.1666,
+              "angle": -17.9942
+            },
+            {
+              "time": 1.4999,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": -2.8302,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": -5.8027,
+              "time": 0.2083,
+              "x": 0
+            },
+            {
+              "y": -5.8027,
+              "time": 1.1666,
+              "x": 0
+            },
+            {
+              "y": -2.8302,
+              "time": 1.4999,
+              "x": 0
+            }
+          ]
+        },
+        "horse-usta-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.2083,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.4582,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.4998,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2083,
+              "angle": 0
+            },
+            {
+              "time": 1.1666,
+              "angle": 0
+            },
+            {
+              "time": 1.4582,
+              "angle": 0
+            },
+            {
+              "time": 1.4998,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 1.6812,
+              "time": 0,
+              "x": -10.0875
+            },
+            {
+              "y": 15.4383,
+              "time": 0.2083,
+              "x": -20.4983
+            },
+            {
+              "y": 15.4383,
+              "time": 1.1666,
+              "x": -20.4983
+            },
+            {
+              "y": 1.68,
+              "time": 1.4582,
+              "x": 0
+            },
+            {
+              "y": 1.68,
+              "time": 1.4998,
+              "x": 0
+            }
+          ]
+        },
+        "horse-tail": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.2083,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.4999,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 12.1031
+            },
+            {
+              "time": 0.2083,
+              "angle": 36.9659
+            },
+            {
+              "time": 1.1666,
+              "angle": 36.9659
+            },
+            {
+              "time": 1.4999,
+              "angle": 12.1031
+            }
+          ],
+          "translate": [
+            {
+              "y": -10.686,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.2083,
+              "x": -7.4606
+            },
+            {
+              "y": 0,
+              "time": 1.1666,
+              "x": -7.4606
+            },
+            {
+              "y": -10.686,
+              "time": 1.4999,
+              "x": 0
+            }
+          ]
+        },
+        "horse-leg-r-2": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.2083,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.4999,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 13.7435
+            },
+            {
+              "time": 0.2083,
+              "angle": 0
+            },
+            {
+              "time": 1.1666,
+              "angle": 0
+            },
+            {
+              "time": 1.4999,
+              "angle": 13.7435
+            }
+          ],
+          "translate": [
+            {
+              "y": 9.7049,
+              "time": 0,
+              "x": 0.2794
+            },
+            {
+              "y": 0,
+              "time": 0.2083,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.1666,
+              "x": 0
+            },
+            {
+              "y": 9.7049,
+              "time": 1.4999,
+              "x": 0.2794
+            }
+          ]
+        },
+        "horse-ruka-l": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.2083,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.4999,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2083,
+              "angle": 3.1798
+            },
+            {
+              "time": 1.1666,
+              "angle": 3.1798
+            },
+            {
+              "time": 1.4999,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": -4.4994,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": -4.4994,
+              "time": 0.2083,
+              "x": 0
+            },
+            {
+              "y": -4.4994,
+              "time": 1.1666,
+              "x": 0
+            },
+            {
+              "y": -4.4994,
+              "time": 1.4999,
+              "x": 0
+            }
+          ]
+        },
+        "horse-oci-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.2083,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.4999,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2083,
+              "angle": 0
+            },
+            {
+              "time": 1.1666,
+              "angle": 0
+            },
+            {
+              "time": 1.4999,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": -0.6016,
+              "time": 0.2083,
+              "x": 1.2441
+            },
+            {
+              "y": -0.6016,
+              "time": 1.1666,
+              "x": 1.2441
+            },
+            {
+              "y": 0,
+              "time": 1.4999,
+              "x": 0
+            }
+          ]
+        },
+        "horse-leg-l-2": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.2083,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.4999,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 5.0012
+            },
+            {
+              "time": 0.2083,
+              "angle": 0
+            },
+            {
+              "time": 1.1666,
+              "angle": 0
+            },
+            {
+              "time": 1.4999,
+              "angle": 5.0012
+            }
+          ],
+          "translate": [
+            {
+              "y": 1.2392,
+              "time": 0,
+              "x": 3.4053
+            },
+            {
+              "y": -3.3745,
+              "time": 0.2083,
+              "x": 1.6873
+            },
+            {
+              "y": -3.3745,
+              "time": 1.1666,
+              "x": 1.6873
+            },
+            {
+              "y": 1.2392,
+              "time": 1.4999,
+              "x": 3.4053
+            }
+          ]
+        },
+        "horse-leg-r-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.2083,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.4999,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -8.3587
+            },
+            {
+              "time": 0.2083,
+              "angle": 0
+            },
+            {
+              "time": 1.1666,
+              "angle": 0
+            },
+            {
+              "time": 1.4999,
+              "angle": -8.3587
+            }
+          ],
+          "translate": [
+            {
+              "y": -8.2621,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.2083,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.1666,
+              "x": 0
+            },
+            {
+              "y": -8.2621,
+              "time": 1.4999,
+              "x": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "ik": [],
+  "bones": [
+    {
+      "name": "root",
+      "length": 0
+    },
+    {
+      "y": 138.25,
+      "length": 0,
+      "name": "horse-body",
+      "parent": "root",
+      "x": -21.6
+    },
+    {
+      "y": 112.35,
+      "length": 0,
+      "name": "horse-body1",
+      "parent": "horse-body",
+      "x": 12.35
+    },
+    {
+      "y": -37.65,
+      "length": 0,
+      "name": "horse-leg-r-1",
+      "parent": "horse-body",
+      "x": 58.05
+    },
+    {
+      "y": -39.5,
+      "length": 0,
+      "name": "horse-leg-l-1",
+      "parent": "horse-body",
+      "x": -36.4
+    },
+    {
+      "y": -9.85,
+      "length": 0,
+      "name": "horse-tail",
+      "parent": "horse-body",
+      "x": 96.3
+    },
+    {
+      "y": -129.6,
+      "length": 0,
+      "name": "horse-shadow",
+      "parent": "horse-body",
+      "x": -12.95
+    },
+    {
+      "rotation": 90,
+      "y": -32.1,
+      "length": 0,
+      "parent": "horse-leg-l-1",
+      "name": "horse-leg-l-2",
+      "x": -40.75
+    },
+    {
+      "y": -19.75,
+      "length": 0,
+      "name": "horse-ruka-l",
+      "parent": "horse-body1",
+      "x": -62.35
+    },
+    {
+      "rotation": 90,
+      "y": 49.4,
+      "length": 0,
+      "name": "horse-head",
+      "parent": "horse-body1"
+    },
+    {
+      "rotation": 90,
+      "y": -9.25,
+      "length": 0,
+      "parent": "horse-body1",
+      "name": "horse-arm-r",
+      "x": 82.1
+    },
+    {
+      "rotation": -180,
+      "y": -45.05,
+      "length": 1,
+      "parent": "horse-leg-r-1",
+      "name": "horse-leg-r-2",
+      "x": 37.65
+    },
+    {
+      "rotation": 90,
+      "y": 62.95,
+      "length": 0,
+      "parent": "horse-head",
+      "name": "horse-usta-1",
+      "x": -38.25
+    },
+    {
+      "y": 112.35,
+      "length": 0,
+      "name": "horse-oci-1",
+      "parent": "horse-head",
+      "x": 35.8
+    }
+  ],
+  "skins": {
+    "default": {
+      "horse-arm-r": {
+        "horse-arm-r": {
+          "rotation": -90,
+          "y": -3.5398,
+          "x": -42.0865,
+          "width": 85,
+          "name": "horse-arm-r",
+          "height": 124
+        }
+      },
+      "horse-leg-l-1": {
+        "horse-leg-l-1": {
+          "height": 80,
+          "y": -1.9021,
+          "width": 143,
+          "name": "horse-leg-l-1",
+          "x": 11.0141
+        }
+      },
+      "horse-shadow": {
+        "horse-shadow": {
+          "height": 73,
+          "y": -11.8257,
+          "width": 467,
+          "name": "horse-shadow",
+          "x": 93.5435
+        }
+      },
+      "horse-arm-l": {
+        "horse-arm-l": {
+          "height": 109,
+          "y": -35.8252,
+          "width": 58,
+          "name": "horse-arm-l",
+          "x": -3.9736
+        }
+      },
+      "horse-head": {
+        "horse-head": {
+          "rotation": -90,
+          "y": 30.1231,
+          "x": 40.9455,
+          "width": 320,
+          "name": "horse-head",
+          "height": 305
+        }
+      },
+      "horse-oci-2": {
+        "horse-oci-2": {
+          "rotation": -90,
+          "y": -6.459,
+          "x": 3.3361,
+          "width": 61,
+          "name": "horse-oci-2",
+          "height": 23
+        }
+      },
+      "horse-usta-1": {
+        "horse-usta-1": {
+          "rotation": -180,
+          "y": 6.7178,
+          "x": 11.1278,
+          "width": 44,
+          "name": "horse-usta-1",
+          "height": 55
+        }
+      },
+      "horse-tail": {
+        "horse-tail": {
+          "height": 77,
+          "y": -20.9194,
+          "width": 104,
+          "name": "horse-tail",
+          "x": 36.1332
+        }
+      },
+      "horse-leg-r-2": {
+        "horse-leg-r-2": {
+          "rotation": 180,
+          "y": 14.267,
+          "x": -14.7239,
+          "width": 64,
+          "name": "horse-leg-r-2",
+          "height": 67
+        }
+      },
+      "horse-body": {
+        "horse-body": {
+          "height": 263,
+          "y": -28.8784,
+          "width": 197,
+          "name": "horse-body",
+          "x": 20.1515
+        }
+      },
+      "horse-oci-1": {
+        "horse-oci-1": {
+          "rotation": -90,
+          "y": -3.926,
+          "x": -1.4424,
+          "width": 75,
+          "name": "horse-oci-1",
+          "height": 15
+        }
+      },
+      "horse-usta-2": {
+        "horse-usta-2": {
+          "rotation": -180,
+          "y": -9.3267,
+          "x": 0.5049,
+          "width": 26,
+          "name": "horse-usta-2",
+          "height": 18
+        }
+      },
+      "horse-leg-l-2": {
+        "horse-leg-l-2": {
+          "rotation": -90,
+          "y": 0.364,
+          "x": -23.4597,
+          "width": 63,
+          "name": "horse-leg-l-2",
+          "height": 63
+        }
+      },
+      "horse-leg-r-1": {
+        "horse-leg-r-1": {
+          "height": 104,
+          "y": -19.288,
+          "width": 149,
+          "name": "horse-leg-r-1",
+          "x": -21.882
+        }
+      }
+    }
+  },
+  "slots": [
+    {
+      "attachment": "horse-shadow",
+      "bone": "horse-shadow",
+      "color": "ffffffff",
+      "name": "horse-shadow"
+    },
+    {
+      "attachment": "horse-tail",
+      "bone": "horse-tail",
+      "color": "ffffffff",
+      "name": "horse-tail"
+    },
+    {
+      "attachment": "horse-leg-l-2",
+      "bone": "horse-leg-l-2",
+      "color": "ffffffff",
+      "name": "horse-leg-l-2"
+    },
+    {
+      "attachment": "horse-leg-l-1",
+      "bone": "horse-leg-l-1",
+      "color": "ffffffff",
+      "name": "horse-leg-l-1"
+    },
+    {
+      "attachment": "horse-leg-r-2",
+      "bone": "horse-leg-r-2",
+      "color": "ffffffff",
+      "name": "horse-leg-r-2"
+    },
+    {
+      "attachment": "horse-leg-r-1",
+      "bone": "horse-leg-r-1",
+      "color": "ffffffff",
+      "name": "horse-leg-r-1"
+    },
+    {
+      "attachment": "horse-arm-l",
+      "bone": "horse-ruka-l",
+      "color": "ffffffff",
+      "name": "horse-arm-l"
+    },
+    {
+      "attachment": "horse-body",
+      "bone": "horse-body1",
+      "color": "ffffffff",
+      "name": "horse-body"
+    },
+    {
+      "attachment": "horse-arm-r",
+      "bone": "horse-arm-r",
+      "color": "ffffffff",
+      "name": "horse-arm-r"
+    },
+    {
+      "attachment": "horse-head",
+      "bone": "horse-head",
+      "color": "ffffffff",
+      "name": "horse-head"
+    },
+    {
+      "attachment": "horse-oci-1",
+      "bone": "horse-oci-1",
+      "color": "ffffffff",
+      "name": "horse-oci-1"
+    },
+    {
+      "bone": "horse-oci-1",
+      "color": "ffffffff",
+      "name": "horse-oci-2"
+    },
+    {
+      "attachment": "horse-usta-1",
+      "bone": "horse-usta-1",
+      "color": "ffffffff",
+      "name": "horse-usta-1"
+    },
+    {
+      "bone": "horse-usta-1",
+      "color": "ffffffff",
+      "name": "horse-usta-2"
+    }
+  ],
+  "events": {}
+}

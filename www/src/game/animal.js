@@ -13,7 +13,7 @@ game.module(
           speed: 400
       });
       fader.fadeIn();
-
+      var playSound = false;
       var mainBg = new game.Sprite('bg/bg-'+animal+'.jpg');
       mainBg.position.set(game.System.width / 2 , game.System.height / 2);
       mainBg.anchor.set(0.5, 0.5);
@@ -21,29 +21,20 @@ game.module(
       mainBg.interactive = true;
       container.addChild(mainBg);
 
-      if(animal == 'sheep' || animal=='cow' || animal =='pig' || animal =='hen'){
-        //TODO remove if
-        var spineAnimation = new game.Spine('animals/'+animal+'/'+animal+'_ske.json');
-        spineAnimation.position.set(game.System.width / 2  + positionX, game.System.height - positionY);
-        spineAnimation.play('anim_idle', true);
-        spineAnimation.interactive = true;
-        container.addChild(spineAnimation);
-      }else{
-        var spineAnimation = new game.Sprite('animals/'+animal+'/'+animal+'-1.png');
-        spineAnimation.scale.set(0.55, 0.55);
-        spineAnimation.interactive = true;
-        spineAnimation.position.set(game.System.width / 2 - spineAnimation.width / 2  + positionX, positionY);
-        spineAnimation.zIndex=4;
-        container.addChild(spineAnimation);
-      }
+      var spineAnimation = new game.Spine('animals/'+animal+'/'+animal+'_ske.json');
+      spineAnimation.position.set(game.System.width / 2  + (positionX), game.System.height - positionY);
+      spineAnimation.play('anim_idle', true);
+      spineAnimation.interactive = true;
+      container.addChild(spineAnimation);
+
 
       spineAnimation.click = spineAnimation.tap = function (){
-        game.audio.playSound(animal);
-        if(animal == 'sheep' || animal=='cow' || animal =='pig' || animal =='hen'){
-          //TODO remove if
+        if(!playSound){
+          playSound = true;
+          game.audio.playSound(animal);
           spineAnimation.play('anim_voice',false);
           var myTimer = game.scene.addTimer(1800, function() {
-            //maibe change bact to timer!!
+            playSound = false;
             spineAnimation.play('anim_idle',true);
           });
         }

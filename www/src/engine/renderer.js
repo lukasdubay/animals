@@ -430,7 +430,6 @@ game.createClass('Video', {
         this.videoElem.setAttribute("webkit-playsinline", '');
         this.videoElem.setAttribute("playsinline", '');
         this.videoElem.muted=true;
-        this.videoElem.preload=true;
         this.videoElem.autoplay=true;
 
 

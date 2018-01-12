@@ -1,0 +1,110 @@
+{"frames": {
+
+"horse-arm-l.png":{
+	"frame": {"x":410,"y":237,"w":58,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":58,"h":109},
+	"sourceSize": {"w":58,"h":109}
+},
+"horse-arm-r.png":{
+	"frame": {"x":323,"y":237,"w":85,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":124},
+	"sourceSize": {"w":85,"h":124}
+},
+"horse-body.png":{
+	"frame": {"x":1,"y":383,"w":197,"h":263},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":197,"h":263},
+	"sourceSize": {"w":197,"h":263}
+},
+"horse-head.png":{
+	"frame": {"x":1,"y":76,"w":320,"h":305},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":320,"h":305},
+	"sourceSize": {"w":320,"h":305}
+},
+"horse-leg-l-1.png":{
+	"frame": {"x":323,"y":76,"w":143,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":143,"h":80},
+	"sourceSize": {"w":143,"h":80}
+},
+"horse-leg-l-2.png":{
+	"frame": {"x":389,"y":405,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63}
+},
+"horse-leg-r-1.png":{
+	"frame": {"x":200,"y":449,"w":149,"h":104},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":149,"h":104},
+	"sourceSize": {"w":149,"h":104}
+},
+"horse-leg-r-2.png":{
+	"frame": {"x":323,"y":380,"w":64,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":67},
+	"sourceSize": {"w":64,"h":67}
+},
+"horse-oci-1.png":{
+	"frame": {"x":323,"y":363,"w":75,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":15},
+	"sourceSize": {"w":75,"h":15}
+},
+"horse-oci-2.png":{
+	"frame": {"x":200,"y":383,"w":61,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":23},
+	"sourceSize": {"w":61,"h":23}
+},
+"horse-shadow.png":{
+	"frame": {"x":1,"y":1,"w":467,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":467,"h":73},
+	"sourceSize": {"w":467,"h":73}
+},
+"horse-tail.png":{
+	"frame": {"x":323,"y":158,"w":104,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":77},
+	"sourceSize": {"w":104,"h":77}
+},
+"horse-usta-1.png":{
+	"frame": {"x":410,"y":348,"w":44,"h":55},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":44,"h":55},
+	"sourceSize": {"w":44,"h":55}
+},
+"horse-usta-2.png":{
+	"frame": {"x":429,"y":158,"w":26,"h":18},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":18},
+	"sourceSize": {"w":26,"h":18}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "horse_sprite.png",
+	"format": "RGBA8888",
+	"size": {"w":469,"h":647},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4bcf331d164079557bf61e1a79bc45e7:8dcad2bbbb59e6774113fe5cf2892f3b:07e15e5eedb44ed05c26613e4313ced4$"
+}
+}

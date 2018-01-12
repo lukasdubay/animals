@@ -1,0 +1,1806 @@
+{
+  "skeleton": {
+    "spine": "3.3.07",
+    "images": "./image/"
+  },
+  "skins": {
+    "default": {
+      "dog-ear-l": {
+        "dog-ear-l": {
+          "rotation": -133.0251,
+          "y": 73.294,
+          "x": -78.4971,
+          "width": 70,
+          "name": "dog-ear-l",
+          "height": 255
+        }
+      },
+      "dog-eyes-1": {
+        "dog-eyes-1": {
+          "rotation": 45,
+          "y": -18.4009,
+          "x": -18.5016,
+          "width": 87,
+          "name": "dog-eyes-1",
+          "height": 13
+        }
+      },
+      "dog-eyes-2": {
+        "dog-eyes-2": {
+          "rotation": 45,
+          "y": -12.2498,
+          "x": -21.2922,
+          "width": 73,
+          "name": "dog-eyes-2",
+          "height": 26
+        }
+      },
+      "dog-hat": {
+        "dog-hat": {
+          "rotation": 180,
+          "y": -21.9755,
+          "x": 29.0898,
+          "width": 182,
+          "name": "dog-hat",
+          "height": 103
+        }
+      },
+      "doh-head": {
+        "doh-head": {
+          "rotation": 180,
+          "y": -56.3094,
+          "x": 65.4427,
+          "width": 274,
+          "name": "doh-head",
+          "height": 303
+        }
+      },
+      "dog-nose": {
+        "dog-nose": {
+          "rotation": 43.0251,
+          "y": -1.972,
+          "x": 2.3389,
+          "width": 44,
+          "name": "dog-nose",
+          "height": 25
+        }
+      },
+      "dog-body": {
+        "dog-body": {
+          "rotation": 180,
+          "y": -40.2983,
+          "x": -22.5574,
+          "width": 225,
+          "name": "dog-body",
+          "height": 228
+        }
+      },
+      "dog-hand-l": {
+        "dog-hand-l": {
+          "rotation": 180,
+          "y": 29.1315,
+          "x": 41.3494,
+          "width": 113,
+          "name": "dog-hand-l",
+          "height": 115
+        }
+      },
+      "dog-tail": {
+        "dog-tail": {
+          "rotation": 180,
+          "y": -40.6734,
+          "x": -32.9038,
+          "width": 91,
+          "name": "dog-tail",
+          "height": 117
+        }
+      },
+      "dog-usta-2": {
+        "dog-usta-2": {
+          "rotation": 180,
+          "y": 33.8478,
+          "x": 31.9109,
+          "width": 24,
+          "name": "dog-usta-2",
+          "height": 29
+        }
+      },
+      "dog-usta-1": {
+        "dog-usta-1": {
+          "rotation": 180,
+          "y": -7.9781,
+          "x": 5.0537,
+          "width": 41,
+          "name": "dog-usta-1",
+          "height": 60
+        }
+      },
+      "dog-legs": {
+        "dog-legs": {
+          "rotation": 180,
+          "y": 14.6599,
+          "x": -15.5577,
+          "width": 206,
+          "name": "dog-legs",
+          "height": 118
+        }
+      },
+      "dog-ear-r": {
+        "dog-ear-r": {
+          "rotation": 90,
+          "y": 12.5512,
+          "x": 103.5564,
+          "width": 66,
+          "name": "dog-ear-r",
+          "height": 252
+        }
+      },
+      "dog-shadow": {
+        "dog-shadow": {
+          "rotation": 154.2307,
+          "y": 76.3707,
+          "x": -84.4504,
+          "width": 435,
+          "name": "dog-shadow",
+          "height": 103
+        }
+      }
+    }
+  },
+  "ik": [],
+  "bones": [
+    {
+      "name": "root",
+      "length": 0
+    },
+    {
+      "rotation": -180,
+      "y": 62.45,
+      "length": 1,
+      "parent": "root",
+      "name": "dog-legs",
+      "x": -48.95
+    },
+    {
+      "y": -78.7,
+      "length": 1,
+      "name": "dog-body",
+      "parent": "dog-legs",
+      "x": 1.4
+    },
+    {
+      "y": -3.55,
+      "length": 0,
+      "name": "dog-tail",
+      "parent": "dog-legs",
+      "x": -99.3
+    },
+    {
+      "rotation": 25.7693,
+      "y": 61,
+      "length": 1,
+      "parent": "dog-legs",
+      "name": "dog-legs1",
+      "x": -9.95
+    },
+    {
+      "y": -14.9,
+      "length": 1,
+      "name": "dog-hand-l",
+      "parent": "dog-body",
+      "x": 70.95
+    },
+    {
+      "y": -126.95,
+      "length": 0,
+      "name": "dog-body1",
+      "parent": "dog-body",
+      "x": -29.8
+    },
+    {
+      "rotation": 136.9749,
+      "y": 8.5,
+      "length": 1,
+      "parent": "dog-body1",
+      "name": "dog-nose",
+      "x": 146.85
+    },
+    {
+      "y": -158.15,
+      "length": 0,
+      "name": "dog-hat",
+      "parent": "dog-body1",
+      "x": 22.7
+    },
+    {
+      "rotation": -46.9749,
+      "y": -92.9,
+      "length": 1,
+      "parent": "dog-body1",
+      "name": "dog-ear-l",
+      "x": 114.2
+    },
+    {
+      "rotation": 135,
+      "y": -78.75,
+      "length": 0,
+      "parent": "dog-body1",
+      "name": "dog-eyes-1",
+      "x": 68.1
+    },
+    {
+      "rotation": 90,
+      "y": -96.45,
+      "length": 2,
+      "parent": "dog-body1",
+      "name": "dog-ear-r",
+      "x": -42.55
+    },
+    {
+      "y": 36.15,
+      "length": 0,
+      "name": "dog-usta-1",
+      "parent": "dog-body1",
+      "x": 51.1
+    }
+  ],
+  "animations": {
+    "anim_voice": {
+      "slots": {
+        "dog-usta-1": {
+
+          "attachment": [
+            {
+              "curve": null,
+              "time": 0,
+              "name": null
+            },
+            {
+              "curve": null,
+              "time": 1.1666,
+              "name": "dog-usta-1"
+            },
+            {
+              "time": 1.2082,
+              "name": "dog-usta-1"
+            }
+          ]
+        },
+        "dog-eyes-1": {
+          "attachment": [
+            {
+              "curve": null,
+              "time": 0,
+              "name": "dog-eyes-1"
+            },
+            {
+              "time": 1.2083,
+              "name": "dog-eyes-1"
+            }
+          ]
+        },
+        "dog-usta-2": {
+
+          "attachment": [
+            {
+              "curve": null,
+              "time": 0,
+              "name": "dog-usta-2"
+            },
+            {
+              "curve": null,
+              "time": 1.1666,
+              "name": null
+            },
+            {
+              "time": 1.2082,
+              "name": null
+            }
+          ]
+        },
+        "dog-eyes-2": {
+          "attachment": [
+            {
+              "curve": null,
+              "time": 0,
+              "name": null
+            },
+            {
+              "time": 1.2083,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "dog-ear-l": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.0416,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.2082,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.1666,
+              "angle": -10.8009
+            },
+            {
+              "time": 1.0416,
+              "angle": -10.8009
+            },
+            {
+              "time": 1.2082,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.1666,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.0416,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.2082,
+              "x": 0
+            }
+          ]
+        },
+        "root": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.2083,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.2083,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.2083,
+              "x": 0
+            }
+          ]
+        },
+        "dog-eyes-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.0416,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.2082,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.1666,
+              "angle": 0
+            },
+            {
+              "time": 1.0416,
+              "angle": 0
+            },
+            {
+              "time": 1.2082,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0.8404,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 1.7568,
+              "time": 0.1666,
+              "x": -2.1401
+            },
+            {
+              "y": 1.7568,
+              "time": 1.0416,
+              "x": -2.1401
+            },
+            {
+              "y": 0.8404,
+              "time": 1.2082,
+              "x": 0
+            }
+          ]
+        },
+        "dog-nose": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.0416,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.2082,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.1666,
+              "angle": 0
+            },
+            {
+              "time": 1.0416,
+              "angle": 0
+            },
+            {
+              "time": 1.2082,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 3.3614,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.1666,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.0416,
+              "x": 0
+            },
+            {
+              "y": 3.3614,
+              "time": 1.2082,
+              "x": 0
+            }
+          ]
+        },
+        "dog-hat": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.0416,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.2082,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.1666,
+              "angle": -12.308
+            },
+            {
+              "time": 1.0416,
+              "angle": -12.308
+            },
+            {
+              "time": 1.2082,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 2.5211,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": -36.5437,
+              "time": 0.1666,
+              "x": -26.8101
+            },
+            {
+              "y": -36.5437,
+              "time": 1.0416,
+              "x": -26.8101
+            },
+            {
+              "y": 2.5211,
+              "time": 1.2082,
+              "x": 0
+            }
+          ]
+        },
+        "dog-ear-r": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.0416,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.2082,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.1666,
+              "angle": 20.7294
+            },
+            {
+              "time": 1.0416,
+              "angle": 20.7294
+            },
+            {
+              "time": 1.2082,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.1666,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.0416,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.2082,
+              "x": 0
+            }
+          ]
+        },
+        "dog-hand-l": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.0416,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.2082,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 10.3981
+            },
+            {
+              "time": 0.1666,
+              "angle": 25.4816
+            },
+            {
+              "time": 1.0416,
+              "angle": 25.4816
+            },
+            {
+              "time": 1.2082,
+              "angle": 10.3981
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.1666,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.0416,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.2082,
+              "x": 0
+            }
+          ]
+        },
+        "dog-tail": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.0416,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.2082,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -12.3831
+            },
+            {
+              "time": 0.1666,
+              "angle": -54.9096
+            },
+            {
+              "time": 1.0416,
+              "angle": -54.9096
+            },
+            {
+              "time": 1.2082,
+              "angle": -12.3831
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.1666,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.0416,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.2082,
+              "x": 0
+            }
+          ]
+        },
+        "dog-legs1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.0416,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.2082,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.1666,
+              "angle": 0
+            },
+            {
+              "time": 1.0416,
+              "angle": 0
+            },
+            {
+              "time": 1.2082,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 23.4334,
+              "time": 0.1666,
+              "x": 0
+            },
+            {
+              "y": 23.4334,
+              "time": 1.0416,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.2082,
+              "x": 0
+            }
+          ]
+        },
+        "dog-usta-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.0416,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.2082,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.1666,
+              "angle": 0
+            },
+            {
+              "time": 1.0416,
+              "angle": 0
+            },
+            {
+              "time": 1.1666,
+              "angle": 0
+            },
+            {
+              "time": 1.2082,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 1.6807,
+              "time": 0,
+              "x": 25.4523
+            },
+            {
+              "y": -4.5677,
+              "time": 0.1666,
+              "x": 53.5668
+            },
+            {
+              "y": -4.5677,
+              "time": 1.0416,
+              "x": 53.5668
+            },
+            {
+              "y": 0.1186,
+              "time": 1.1666,
+              "x": 0
+            },
+            {
+              "y": 1.6807,
+              "time": 1.2082,
+              "x": 0
+            }
+          ]
+        },
+        "dog-legs": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.0416,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.2082,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.1666,
+              "angle": 0
+            },
+            {
+              "time": 1.0416,
+              "angle": 0
+            },
+            {
+              "time": 1.2082,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 23.4944,
+              "time": 0.1666,
+              "x": 0
+            },
+            {
+              "y": 23.4944,
+              "time": 1.0416,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.2082,
+              "x": 0
+            }
+          ]
+        },
+        "dog-body1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.0416,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.2082,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.1666,
+              "angle": -12.3511
+            },
+            {
+              "time": 1.0416,
+              "angle": -12.3511
+            },
+            {
+              "time": 1.2082,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 5.0421,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": -2.5211,
+              "time": 0.1666,
+              "x": 0
+            },
+            {
+              "y": -2.5211,
+              "time": 1.0416,
+              "x": 0
+            },
+            {
+              "y": 5.0421,
+              "time": 1.2082,
+              "x": 0
+            }
+          ]
+        },
+        "dog-body": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.1666,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.0416,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.2082,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.1666,
+              "angle": 0
+            },
+            {
+              "time": 1.0416,
+              "angle": 0
+            },
+            {
+              "time": 1.2082,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 6.7228,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": -5.8736,
+              "time": 0.1666,
+              "x": 0
+            },
+            {
+              "y": -5.8736,
+              "time": 1.0416,
+              "x": 0
+            },
+            {
+              "y": 6.7228,
+              "time": 1.2082,
+              "x": 0
+            }
+          ]
+        }
+      }
+    },
+    "anim_idle": {
+      "bones": {
+        "dog-ear-l": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "root": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "dog-eyes-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0.8404,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 0.8404,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "dog-nose": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 3.3614,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 3.3614,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "dog-hat": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 2.5211,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 2.5211,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "dog-ear-r": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "dog-hand-l": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 10.3981
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 10.3981
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "dog-tail": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -12.3831
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": -12.3831
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "dog-legs1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "dog-usta-1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 1.6807,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 1.6807,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "dog-legs": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 0,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "dog-body1": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 5.0421,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 2.5211,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 5.0421,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        },
+        "dog-body": {
+          "scale": [
+            {
+              "y": 1,
+              "time": 0,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 0.8333,
+              "x": 1
+            },
+            {
+              "y": 1,
+              "time": 1.6666,
+              "x": 1
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8333,
+              "angle": 0
+            },
+            {
+              "time": 1.6666,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "y": 6.7228,
+              "time": 0,
+              "x": 0
+            },
+            {
+              "y": 0,
+              "time": 0.8333,
+              "x": 0
+            },
+            {
+              "y": 6.7228,
+              "time": 1.6666,
+              "x": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "slots": [
+    {
+      "attachment": "dog-shadow",
+      "bone": "dog-legs1",
+      "color": "ffffffff",
+      "name": "dog-shadow"
+    },
+    {
+      "attachment": "dog-tail",
+      "bone": "dog-tail",
+      "color": "ffffffff",
+      "name": "dog-tail"
+    },
+    {
+      "attachment": "dog-legs",
+      "bone": "dog-legs",
+      "color": "ffffffff",
+      "name": "dog-legs"
+    },
+    {
+      "attachment": "dog-ear-l",
+      "bone": "dog-ear-l",
+      "color": "ffffffff",
+      "name": "dog-ear-l"
+    },
+    {
+      "attachment": "dog-body",
+      "bone": "dog-body",
+      "color": "ffffffff",
+      "name": "dog-body"
+    },
+    {
+      "attachment": "dog-hand-l",
+      "bone": "dog-hand-l",
+      "color": "ffffffff",
+      "name": "dog-hand-l"
+    },
+    {
+      "attachment": "doh-head",
+      "bone": "dog-body1",
+      "color": "ffffffff",
+      "name": "doh-head"
+    },
+    {
+      "attachment": "dog-ear-r",
+      "bone": "dog-ear-r",
+      "color": "ffffffff",
+      "name": "dog-ear-r"
+    },
+    {
+      "attachment": "dog-hat",
+      "bone": "dog-hat",
+      "color": "ffffffff",
+      "name": "dog-hat"
+    },
+    {
+      "attachment": "dog-eyes-1",
+      "bone": "dog-eyes-1",
+      "color": "ffffffff",
+      "name": "dog-eyes-1"
+    },
+    {
+      "bone": "dog-usta-1",
+      "color": "ffffffff",
+      "name": "dog-usta-2"
+    },
+    {
+      "attachment": "dog-usta-1",
+      "bone": "dog-usta-1",
+      "color": "ffffffff",
+      "name": "dog-usta-1"
+    },
+    {
+      "attachment": "dog-nose",
+      "bone": "dog-nose",
+      "color": "ffffffff",
+      "name": "dog-nose"
+    },
+    {
+      "bone": "dog-eyes-1",
+      "color": "ffffffff",
+      "name": "dog-eyes-2"
+    }
+  ],
+  "events": {}
+}

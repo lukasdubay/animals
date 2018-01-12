@@ -1,0 +1,131 @@
+{"frames": {
+
+"goat-body.png":{
+	"frame": {"x":1,"y":285,"w":220,"h":263},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":220,"h":263},
+	"sourceSize": {"w":220,"h":263}
+},
+"goat-ear-l.png":{
+	"frame": {"x":399,"y":159,"w":79,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":63},
+	"sourceSize": {"w":79,"h":63}
+},
+"goat-ear-r.png":{
+	"frame": {"x":399,"y":224,"w":78,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":53},
+	"sourceSize": {"w":78,"h":53}
+},
+"goat-eyes-1.png":{
+	"frame": {"x":269,"y":520,"w":70,"h":11},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":11},
+	"sourceSize": {"w":70,"h":11}
+},
+"goat-eyes-2.png":{
+	"frame": {"x":395,"y":279,"w":66,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":25},
+	"sourceSize": {"w":66,"h":25}
+},
+"goat-flower.png":{
+	"frame": {"x":223,"y":306,"w":257,"h":212},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":257,"h":212},
+	"sourceSize": {"w":257,"h":212}
+},
+"goat-hand-l.png":{
+	"frame": {"x":294,"y":239,"w":62,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":64},
+	"sourceSize": {"w":62,"h":64}
+},
+"goat-hand-r.png":{
+	"frame": {"x":294,"y":58,"w":105,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":88},
+	"sourceSize": {"w":105,"h":88}
+},
+"goat-head.png":{
+	"frame": {"x":1,"y":1,"w":291,"h":282},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":291,"h":282},
+	"sourceSize": {"w":291,"h":282}
+},
+"goat-horns.png":{
+	"frame": {"x":294,"y":1,"w":167,"h":55},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":167,"h":55},
+	"sourceSize": {"w":167,"h":55}
+},
+"goat-leg-l.png":{
+	"frame": {"x":401,"y":58,"w":79,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":99},
+	"sourceSize": {"w":79,"h":99}
+},
+"goat-leg-r.png":{
+	"frame": {"x":294,"y":148,"w":103,"h":89},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":103,"h":89},
+	"sourceSize": {"w":103,"h":89}
+},
+"goat-mouth-1.png":{
+	"frame": {"x":223,"y":520,"w":44,"h":27},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":44,"h":27},
+	"sourceSize": {"w":44,"h":27}
+},
+"goat-mouth-2.png":{
+	"frame": {"x":341,"y":520,"w":41,"h":17},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":17},
+	"sourceSize": {"w":41,"h":17}
+},
+"goat-nose.png":{
+	"frame": {"x":223,"y":285,"w":56,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":56,"h":15},
+	"sourceSize": {"w":56,"h":15}
+},
+"goat-shadow.png":{
+	"frame": {"x":1,"y":550,"w":320,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":320,"h":94},
+	"sourceSize": {"w":320,"h":94}
+},
+"goat-tail.png":{
+	"frame": {"x":358,"y":239,"w":35,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":57},
+	"sourceSize": {"w":35,"h":57}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "goat_sprite.png",
+	"format": "RGBA8888",
+	"size": {"w":481,"h":645},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:fde89d2816d14213523b261bdd32b620:528639b90f70a60d7c2412045cac2b2c:f9df698e85a2404e8c1c7add3f552e1e$"
+}
+}
